@@ -1,0 +1,30 @@
+---
+title: 写作台
+slug: blog-guide/studio
+legacySource: docs/blog-guide/studio/index.md
+legacyUrl: /docs/blog-guide/studio/
+sidebar:
+  order: 1
+---
+
+# 写作台
+
+地址：<https://yenchiu.com/admin/>
+
+它就是一个网页。在浏览器里改 Markdown，点保存就是往 GitHub 提交一次 commit。
+没有服务器，也没有数据库，所有东西都在仓库里。
+
+手机和电脑都能用。手机上工具栏是两行：
+
+```text
+←  ☰  编辑 预览                    保存
+未保存                             重载
+```
+
+`☰` 是文章列表，点开是抽屉；抽屉右上角有 `✕`，或者点空白处也能关。
+
+三件事单独说：
+
+- [登录与授权](login/)：令牌从哪来、多久过期
+- [写一篇文章](write/)：从新建到保存
+- [图片与附件](images/)：拖图、压缩、大文件怎么办

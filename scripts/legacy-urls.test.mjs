@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import { rewriteLegacyUrl } from '../src/plugins/legacy-content.mjs';
+assert.equal(rewriteLegacyUrl('../mobile-controls/', '/docs/Website Building Notes/astro-migration/chrome-qa/'), '/folio/building/astro-migration/mobile-controls/');
+assert.equal(rewriteLegacyUrl('./execution', '/docs/Website Building Notes/astro-migration/'), '/folio/building/astro-migration/execution/');
+assert.equal(rewriteLegacyUrl('/WendellManual/assets/images/chat-subsite/ai.png', '/'), '/folio/assets/images/chat-subsite/ai.png');
+assert.equal(rewriteLegacyUrl('https://raw.githubusercontent.com/yen-chiu/WendellManual/master/assets/images/small-image.jpg', '/'), '/folio/assets/images/small-image.jpg');
+assert.equal(rewriteLegacyUrl('#代码', '/docs/blog-guide/'), '#代码');
+assert.equal(rewriteLegacyUrl('https://example.com/a', '/'), 'https://example.com/a');
+assert.equal(rewriteLegacyUrl('/folio/start-here/', '/'), '/folio/start-here/');
+assert.equal(rewriteLegacyUrl('/WendellManual/', '/'), '/folio/');
+console.log('Legacy relative links, root links, asset localization and unchanged external/hash URLs verified');

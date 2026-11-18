@@ -1,0 +1,3228 @@
+{
+  "/docs/Website Building Notes/404-redesign/": [
+    {
+      "id": "404-改版方案未印的一页",
+      "text": "404 改版方案：未印的一页"
+    },
+    {
+      "id": "一结论",
+      "text": "一、结论"
+    },
+    {
+      "id": "二诊断对着线上页面逐条有据",
+      "text": "二、诊断（对着线上页面，逐条有据）"
+    },
+    {
+      "id": "三github-上值得学的",
+      "text": "三、GitHub 上值得学的"
+    },
+    {
+      "id": "四设计师视角",
+      "text": "四、设计师视角"
+    },
+    {
+      "id": "41-三个方向先做减法",
+      "text": "4.1 三个方向，先做减法"
+    },
+    {
+      "id": "42-概念",
+      "text": "4.2 概念"
+    },
+    {
+      "id": "43-视觉规范",
+      "text": "4.3 视觉规范"
+    },
+    {
+      "id": "44-交互",
+      "text": "4.4 交互"
+    },
+    {
+      "id": "45-文案",
+      "text": "4.5 文案"
+    },
+    {
+      "id": "五架构师视角",
+      "text": "五、架构师视角"
+    },
+    {
+      "id": "51-约束",
+      "text": "5.1 约束"
+    },
+    {
+      "id": "52-预算",
+      "text": "5.2 预算"
+    },
+    {
+      "id": "53-落地结构",
+      "text": "5.3 落地结构"
+    },
+    {
+      "id": "54-关键决策",
+      "text": "5.4 关键决策"
+    },
+    {
+      "id": "55-风险与兜底",
+      "text": "5.5 风险与兜底"
+    },
+    {
+      "id": "56-验收清单",
+      "text": "5.6 验收清单"
+    },
+    {
+      "id": "57-排期",
+      "text": "5.7 排期"
+    },
+    {
+      "id": "六原型",
+      "text": "六、原型"
+    }
+  ],
+  "/docs/Site Navigation/Ai/AI Cutout/": [
+    {
+      "id": "ai去背景抠图工具推荐",
+      "text": "AI去背景抠图工具推荐"
+    },
+    {
+      "id": "目录",
+      "text": "目录"
+    },
+    {
+      "id": "推荐工具列表",
+      "text": "推荐工具列表"
+    },
+    {
+      "id": "工具优点",
+      "text": "工具优点"
+    },
+    {
+      "id": "适用场景",
+      "text": "适用场景"
+    }
+  ],
+  "/docs/Site Navigation/Ai/AI Drawing/": [
+    {
+      "id": "ai-生成图片资源大全",
+      "text": "AI 生成图片资源大全"
+    },
+    {
+      "id": "目录",
+      "text": "目录"
+    },
+    {
+      "id": "1-midjourney",
+      "text": "1. Midjourney"
+    },
+    {
+      "id": "2-designer-image-creator",
+      "text": "2. Designer Image Creator"
+    },
+    {
+      "id": "3-lexica-aperture",
+      "text": "3. Lexica Aperture"
+    },
+    {
+      "id": "4-bing-image-creator",
+      "text": "4. Bing Image Creator"
+    },
+    {
+      "id": "5-stable-diffusion-and-dreambooth-api",
+      "text": "5. Stable Diffusion And Dreambooth API"
+    },
+    {
+      "id": "6-画宇宙",
+      "text": "6. 画宇宙"
+    },
+    {
+      "id": "7-hotpot-ai-art-generator",
+      "text": "7. Hotpot AI Art Generator"
+    },
+    {
+      "id": "8-freepik-sketch",
+      "text": "8. Freepik Sketch"
+    },
+    {
+      "id": "9-imgcreatorai",
+      "text": "9. ImgCreator.AI"
+    },
+    {
+      "id": "10-boardmix",
+      "text": "10. BoardMix"
+    },
+    {
+      "id": "11-jasper-art",
+      "text": "11. Jasper Art"
+    },
+    {
+      "id": "12-limewire",
+      "text": "12. LimeWire"
+    },
+    {
+      "id": "13-scribble-diffusion",
+      "text": "13. Scribble Diffusion"
+    },
+    {
+      "id": "14-dream-by-wombo",
+      "text": "14. Dream by WOMBO"
+    },
+    {
+      "id": "15-weshop",
+      "text": "15. WeShop"
+    },
+    {
+      "id": "17-nightcafe-creator",
+      "text": "17. NightCafe Creator"
+    },
+    {
+      "id": "18-dreamstudio",
+      "text": "18. DreamStudio"
+    },
+    {
+      "id": "19-starryai",
+      "text": "19. StarryAI"
+    },
+    {
+      "id": "20-freeimageai",
+      "text": "20. FreeImage.AI"
+    },
+    {
+      "id": "21-deep-dream-generator",
+      "text": "21. Deep Dream Generator"
+    },
+    {
+      "id": "22-craiyon",
+      "text": "22. Craiyon"
+    },
+    {
+      "id": "24-adobe-firefly",
+      "text": "24. Adobe Firefly"
+    }
+  ],
+  "/docs/Site Navigation/Ai/AI drawing prompts/": [
+    {
+      "id": "ai-绘图提示词",
+      "text": "AI 绘图提示词"
+    },
+    {
+      "id": "目录",
+      "text": "目录"
+    },
+    {
+      "id": "1-aituts-prompts---midjourney-prompt-library",
+      "text": "1. AiTuts Prompts - Midjourney Prompt Library"
+    },
+    {
+      "id": "2-prompthero",
+      "text": "2. PromptHero"
+    },
+    {
+      "id": "3-midjourney-prompt-tool",
+      "text": "3. MidJourney Prompt Tool"
+    },
+    {
+      "id": "5-prompt-engineering-guide",
+      "text": "5. Prompt Engineering Guide"
+    },
+    {
+      "id": "6-novelai-tag-在线生成器",
+      "text": "6. NovelAI tag 在线生成器"
+    },
+    {
+      "id": "7-krea",
+      "text": "7. KREA"
+    },
+    {
+      "id": "8-openart",
+      "text": "8. OpenArt"
+    },
+    {
+      "id": "10-魔咒百科词典",
+      "text": "10. 魔咒百科词典"
+    },
+    {
+      "id": "11-chatgpt-shortcut",
+      "text": "11. ChatGPT Shortcut"
+    },
+    {
+      "id": "14-promptbase",
+      "text": "14. PromptBase"
+    },
+    {
+      "id": "15-ops-提示词工作室",
+      "text": "15. OPS 提示词工作室"
+    },
+    {
+      "id": "16-ai-绘画提示词生成器",
+      "text": "16. AI 绘画提示词生成器"
+    },
+    {
+      "id": "17-midjourney-styles-and-keywords-reference",
+      "text": "17. Midjourney-Styles-and-Keywords-Reference"
+    },
+    {
+      "id": "18-ecommerce-chatgpt-prompts",
+      "text": "18. eCommerce ChatGPT Prompts"
+    },
+    {
+      "id": "19-midjourney-提示词生成器",
+      "text": "19. Midjourney 提示词生成器"
+    },
+    {
+      "id": "20-ai-绘画提示词生成器",
+      "text": "20. AI 绘画提示词生成器"
+    },
+    {
+      "id": "21-无界-ai",
+      "text": "21. 无界 AI"
+    },
+    {
+      "id": "22-imi-prompt-midjourney-prompt-builder-v5",
+      "text": "22. IMI Prompt: Midjourney Prompt Builder v5"
+    },
+    {
+      "id": "23-chatgpt-引导语",
+      "text": "23. ChatGPT 引导语"
+    },
+    {
+      "id": "24-prompt-vibes",
+      "text": "24. Prompt Vibes"
+    },
+    {
+      "id": "25-stable-diffusion-web---prompts",
+      "text": "25. Stable Diffusion Web - Prompts"
+    },
+    {
+      "id": "26-stable-diffusion-cyberpunk-prompts",
+      "text": "26. Stable Diffusion Cyberpunk Prompts"
+    }
+  ],
+  "/CHANGELOG/": [
+    {
+      "id": "changelog",
+      "text": "CHANGELOG"
+    },
+    {
+      "id": "head",
+      "text": "HEAD"
+    },
+    {
+      "id": "release-v0100",
+      "text": "Release v0.10.0"
+    },
+    {
+      "id": "using-release-v0100",
+      "text": "Using Release v0.10.0"
+    },
+    {
+      "id": "new-features",
+      "text": "New Features"
+    },
+    {
+      "id": "documentation",
+      "text": "Documentation"
+    },
+    {
+      "id": "release-v090",
+      "text": "Release v0.9.0"
+    },
+    {
+      "id": "using-release-v090",
+      "text": "Using Release v0.9.0"
+    },
+    {
+      "id": "new-features-1",
+      "text": "New Features"
+    },
+    {
+      "id": "bugfixes",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "documentation-1",
+      "text": "Documentation"
+    },
+    {
+      "id": "new-contributors",
+      "text": "New Contributors"
+    },
+    {
+      "id": "release-v082",
+      "text": "Release v0.8.2"
+    },
+    {
+      "id": "bugfixes-1",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "release-v081",
+      "text": "Release v0.8.1"
+    },
+    {
+      "id": "bugfixes-2",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "documentation-2",
+      "text": "Documentation"
+    },
+    {
+      "id": "new-contributors-1",
+      "text": "New Contributors"
+    },
+    {
+      "id": "release-v080",
+      "text": "Release v0.8.0"
+    },
+    {
+      "id": "using-release-v080",
+      "text": "Using Release v0.8.0"
+    },
+    {
+      "id": "new-features-2",
+      "text": "New Features"
+    },
+    {
+      "id": "bugfixes-3",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "documentation-3",
+      "text": "Documentation"
+    },
+    {
+      "id": "new-contributors-2",
+      "text": "New Contributors"
+    },
+    {
+      "id": "release-v070",
+      "text": "Release v0.7.0"
+    },
+    {
+      "id": "migrating-to-v070",
+      "text": "Migrating to v0.7.0"
+    },
+    {
+      "id": "using-release-v070",
+      "text": "Using Release v0.7.0"
+    },
+    {
+      "id": "new-features-3",
+      "text": "New Features"
+    },
+    {
+      "id": "bugfixes-4",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "documentation-4",
+      "text": "Documentation:"
+    },
+    {
+      "id": "new-contributors-3",
+      "text": "New Contributors"
+    },
+    {
+      "id": "release-v062",
+      "text": "Release v0.6.2"
+    },
+    {
+      "id": "bugfixes-5",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "new-contributors-4",
+      "text": "New Contributors"
+    },
+    {
+      "id": "release-v061",
+      "text": "Release v0.6.1"
+    },
+    {
+      "id": "bugfixes-6",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "release-v060",
+      "text": "Release v0.6.0"
+    },
+    {
+      "id": "migrating-to-v060",
+      "text": "Migrating to v0.6.0"
+    },
+    {
+      "id": "using-release-v060",
+      "text": "Using Release v0.6.0"
+    },
+    {
+      "id": "new-features-and-bugfixes",
+      "text": "New Features and Bugfixes"
+    },
+    {
+      "id": "documentation-5",
+      "text": "Documentation"
+    },
+    {
+      "id": "new-contributors-5",
+      "text": "New Contributors"
+    },
+    {
+      "id": "release-v054",
+      "text": "Release v0.5.4"
+    },
+    {
+      "id": "bugfixes-7",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "release-v053",
+      "text": "Release v0.5.3"
+    },
+    {
+      "id": "using-release-v053",
+      "text": "Using Release v0.5.3"
+    },
+    {
+      "id": "bugfixes-8",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "release-v052",
+      "text": "Release v0.5.2"
+    },
+    {
+      "id": "using-release-v052",
+      "text": "Using Release v0.5.2"
+    },
+    {
+      "id": "bugfixes-9",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "new-contributors-6",
+      "text": "New Contributors"
+    },
+    {
+      "id": "release-v051",
+      "text": "Release v0.5.1"
+    },
+    {
+      "id": "using-release-v051",
+      "text": "Using Release v0.5.1"
+    },
+    {
+      "id": "bugfixes-10",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "documentation-6",
+      "text": "Documentation"
+    },
+    {
+      "id": "new-contributors-7",
+      "text": "New Contributors"
+    },
+    {
+      "id": "release-v050",
+      "text": "Release v0.5.0"
+    },
+    {
+      "id": "migrating-to-v050",
+      "text": "Migrating to v0.5.0"
+    },
+    {
+      "id": "using-release-v050",
+      "text": "Using Release v0.5.0"
+    },
+    {
+      "id": "bugfixes-11",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "release-v042",
+      "text": "Release v0.4.2"
+    },
+    {
+      "id": "using-release-v042",
+      "text": "Using Release v0.4.2"
+    },
+    {
+      "id": "bugfixes-12",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "documentation-7",
+      "text": "Documentation"
+    },
+    {
+      "id": "release-v041",
+      "text": "Release v0.4.1"
+    },
+    {
+      "id": "using-release-v041",
+      "text": "Using Release v0.4.1"
+    },
+    {
+      "id": "bugfixes-13",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "documentation-8",
+      "text": "Documentation"
+    },
+    {
+      "id": "new-contributors-8",
+      "text": "New Contributors"
+    },
+    {
+      "id": "release-v040",
+      "text": "Release v0.4.0"
+    },
+    {
+      "id": "brief-overview---highlighted-changes",
+      "text": "Brief Overview - Highlighted Changes"
+    },
+    {
+      "id": "using-release-v040",
+      "text": "Using Release v0.4.0"
+    },
+    {
+      "id": "migration-guide-and-strategies",
+      "text": "Migration Guide and Strategies"
+    },
+    {
+      "id": "roadmap-whats-next",
+      "text": "Roadmap (What’s Next?)"
+    },
+    {
+      "id": "new-features-4",
+      "text": "New Features"
+    },
+    {
+      "id": "bugfixes-14",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "maintenance",
+      "text": "Maintenance"
+    },
+    {
+      "id": "documentation-9",
+      "text": "Documentation"
+    },
+    {
+      "id": "new-contributors-9",
+      "text": "New Contributors"
+    },
+    {
+      "id": "pre-release-v040rc5",
+      "text": "Pre-release v0.4.0.rc5"
+    },
+    {
+      "id": "trying-out-pre-release-v040rc5",
+      "text": "Trying out pre-release v0.4.0.rc5"
+    },
+    {
+      "id": "new-features-5",
+      "text": "New Features"
+    },
+    {
+      "id": "bugfixes-and-maintenance",
+      "text": "Bugfixes and Maintenance"
+    },
+    {
+      "id": "docs",
+      "text": "Docs"
+    },
+    {
+      "id": "new-contributors-10",
+      "text": "New Contributors"
+    },
+    {
+      "id": "pre-release-v040rc4",
+      "text": "Pre-release v0.4.0.rc4"
+    },
+    {
+      "id": "trying-out-pre-release-v040rc4",
+      "text": "Trying out pre-release v0.4.0.rc4"
+    },
+    {
+      "id": "new-features-6",
+      "text": "New Features"
+    },
+    {
+      "id": "bugfixes-and-maintenance-1",
+      "text": "Bugfixes and Maintenance"
+    },
+    {
+      "id": "docs-1",
+      "text": "Docs"
+    },
+    {
+      "id": "new-contributors-11",
+      "text": "New Contributors"
+    },
+    {
+      "id": "pre-release-v040rc3",
+      "text": "Pre-release v0.4.0.rc3"
+    },
+    {
+      "id": "trying-out-pre-release-v040rc3",
+      "text": "Trying out pre-release v0.4.0.rc3"
+    },
+    {
+      "id": "features",
+      "text": "Features"
+    },
+    {
+      "id": "bugfixes-and-experimental-features",
+      "text": "Bugfixes and Experimental Features"
+    },
+    {
+      "id": "pre-release-v040rc2",
+      "text": "Pre-release v0.4.0.rc2"
+    },
+    {
+      "id": "trying-out-pre-release-v040rc2",
+      "text": "Trying out pre-release v0.4.0.rc2"
+    },
+    {
+      "id": "features-1",
+      "text": "Features"
+    },
+    {
+      "id": "documentation-and-maintenance",
+      "text": "Documentation and Maintenance"
+    },
+    {
+      "id": "new-contributors-12",
+      "text": "New Contributors"
+    },
+    {
+      "id": "pre-release-v040rc1",
+      "text": "Pre-release v0.4.0.rc1"
+    },
+    {
+      "id": "were-back",
+      "text": "We’re back!"
+    },
+    {
+      "id": "trying-out-pre-release-v040rc1",
+      "text": "Trying out pre-release v0.4.0.rc1"
+    },
+    {
+      "id": "staying-on-v033",
+      "text": "Staying on v0.3.3"
+    },
+    {
+      "id": "maintenance-1",
+      "text": "Maintenance"
+    },
+    {
+      "id": "roadmap",
+      "text": "Roadmap"
+    },
+    {
+      "id": "features-2",
+      "text": "Features"
+    },
+    {
+      "id": "documentation-10",
+      "text": "Documentation"
+    },
+    {
+      "id": "maintenance-2",
+      "text": "Maintenance"
+    },
+    {
+      "id": "dependencies",
+      "text": "Dependencies"
+    },
+    {
+      "id": "new-contributors-13",
+      "text": "New Contributors"
+    },
+    {
+      "id": "v033",
+      "text": "v0.3.3"
+    },
+    {
+      "id": "-features",
+      "text": "🚀 Features"
+    },
+    {
+      "id": "-bug-fixes",
+      "text": "🐛 Bug Fixes"
+    },
+    {
+      "id": "-maintenance",
+      "text": "🧰 Maintenance"
+    },
+    {
+      "id": "v032",
+      "text": "v0.3.2"
+    },
+    {
+      "id": "changes",
+      "text": "Changes"
+    },
+    {
+      "id": "-features-1",
+      "text": "🚀 Features"
+    },
+    {
+      "id": "-bug-fixes-1",
+      "text": "🐛 Bug Fixes"
+    },
+    {
+      "id": "-maintenance-1",
+      "text": "🧰 Maintenance"
+    },
+    {
+      "id": "v031",
+      "text": "v0.3.1"
+    },
+    {
+      "id": "changes-1",
+      "text": "Changes"
+    },
+    {
+      "id": "-bug-fixes-2",
+      "text": "🐛 Bug Fixes"
+    },
+    {
+      "id": "-maintenance-2",
+      "text": "🧰 Maintenance"
+    },
+    {
+      "id": "v030",
+      "text": "v0.3.0"
+    },
+    {
+      "id": "changes-2",
+      "text": "Changes"
+    },
+    {
+      "id": "-features-2",
+      "text": "🚀 Features"
+    },
+    {
+      "id": "-bug-fixes-3",
+      "text": "🐛 Bug Fixes"
+    },
+    {
+      "id": "-maintenance-3",
+      "text": "🧰 Maintenance"
+    },
+    {
+      "id": "v029",
+      "text": "v0.2.9"
+    },
+    {
+      "id": "bug-fixes",
+      "text": "Bug fixes"
+    },
+    {
+      "id": "enhancements",
+      "text": "Enhancements"
+    },
+    {
+      "id": "v028",
+      "text": "v0.2.8"
+    },
+    {
+      "id": "bugfixes-15",
+      "text": "Bugfixes"
+    },
+    {
+      "id": "dependency-and-security-updates",
+      "text": "Dependency and security updates:"
+    },
+    {
+      "id": "operations",
+      "text": "Operations"
+    },
+    {
+      "id": "v027",
+      "text": "v0.2.7"
+    },
+    {
+      "id": "bugs-fixed",
+      "text": "Bugs fixed"
+    },
+    {
+      "id": "enhancements-1",
+      "text": "Enhancements"
+    },
+    {
+      "id": "maintenance-3",
+      "text": "Maintenance"
+    },
+    {
+      "id": "pr-included",
+      "text": "PR included"
+    },
+    {
+      "id": "v026",
+      "text": "v0.2.6"
+    },
+    {
+      "id": "bugs-fixed-1",
+      "text": "Bugs fixed"
+    },
+    {
+      "id": "enhancements-2",
+      "text": "Enhancements"
+    },
+    {
+      "id": "maintenance-4",
+      "text": "Maintenance"
+    },
+    {
+      "id": "pr-included-1",
+      "text": "PR included"
+    },
+    {
+      "id": "v025",
+      "text": "v0.2.5"
+    },
+    {
+      "id": "bugs-fixed-2",
+      "text": "Bugs fixed"
+    },
+    {
+      "id": "enhancements-3",
+      "text": "Enhancements"
+    },
+    {
+      "id": "maintenance-5",
+      "text": "Maintenance"
+    },
+    {
+      "id": "v024",
+      "text": "v0.2.4"
+    },
+    {
+      "id": "bugs",
+      "text": "Bugs"
+    },
+    {
+      "id": "additions",
+      "text": "Additions"
+    },
+    {
+      "id": "v023",
+      "text": "v0.2.3"
+    },
+    {
+      "id": "enhancements-4",
+      "text": "Enhancements"
+    },
+    {
+      "id": "bug-fixes-1",
+      "text": "Bug fixes"
+    },
+    {
+      "id": "dependency-updates",
+      "text": "Dependency updates"
+    },
+    {
+      "id": "v022",
+      "text": "v0.2.2"
+    },
+    {
+      "id": "v021",
+      "text": "v0.2.1"
+    },
+    {
+      "id": "v020",
+      "text": "v0.2.0"
+    },
+    {
+      "id": "v016",
+      "text": "v0.1.6"
+    },
+    {
+      "id": "added",
+      "text": "Added"
+    },
+    {
+      "id": "fixed",
+      "text": "Fixed"
+    },
+    {
+      "id": "v015",
+      "text": "v0.1.5"
+    },
+    {
+      "id": "v014",
+      "text": "v0.1.4"
+    },
+    {
+      "id": "v013",
+      "text": "v0.1.3"
+    },
+    {
+      "id": "v012",
+      "text": "v0.1.2"
+    },
+    {
+      "id": "v011",
+      "text": "v0.1.1"
+    }
+  ],
+  "/MIGRATION/": [
+    {
+      "id": "migrating-and-upgrading",
+      "text": "Migrating and Upgrading"
+    },
+    {
+      "id": "v09x---v0100",
+      "text": "v0.9.x - v0.10.0"
+    },
+    {
+      "id": "v08x---v090",
+      "text": "v0.8.x - v0.9.0"
+    },
+    {
+      "id": "v07x---v080",
+      "text": "v0.7.x - v0.8.0"
+    },
+    {
+      "id": "v06x---v070",
+      "text": "v0.6.x - v0.7.0"
+    },
+    {
+      "id": "potentially-breaking-changes-in-v070",
+      "text": "POTENTIALLY-BREAKING CHANGES in v0.7.0"
+    },
+    {
+      "id": "moved-include",
+      "text": "Moved Include"
+    },
+    {
+      "id": "new-script-ids",
+      "text": "New Script IDs"
+    },
+    {
+      "id": "v05x---v060",
+      "text": "v0.5.x - v0.6.0"
+    },
+    {
+      "id": "potentially-breaking-changes-in-v060",
+      "text": "POTENTIALLY-BREAKING CHANGES in v0.6.0"
+    },
+    {
+      "id": "new-includes",
+      "text": "New Includes"
+    },
+    {
+      "id": "removed-main-content-wrap",
+      "text": "Removed #main-content-wrap"
+    },
+    {
+      "id": "new-color-scheme-variable",
+      "text": "New $color-scheme variable"
+    },
+    {
+      "id": "cached-favicon",
+      "text": "Cached favicon"
+    },
+    {
+      "id": "v04x---v050",
+      "text": "v0.4.x - v0.5.0"
+    },
+    {
+      "id": "potentially-breaking-changes-in-v050",
+      "text": "POTENTIALLY-BREAKING CHANGES in v0.5.0"
+    },
+    {
+      "id": "v033--v04x",
+      "text": "v0.3.3 … v0.4.x"
+    },
+    {
+      "id": "repository-changes",
+      "text": "REPOSITORY CHANGES"
+    },
+    {
+      "id": "just-the-docs",
+      "text": "Just the Docs"
+    },
+    {
+      "id": "deploy-previews",
+      "text": "Deploy previews"
+    },
+    {
+      "id": "just-the-docs-template",
+      "text": "Just the Docs Template"
+    },
+    {
+      "id": "just-the-docs-tests",
+      "text": "Just the Docs Tests"
+    },
+    {
+      "id": "potentially-breaking-changes-in-v040",
+      "text": "POTENTIALLY-BREAKING CHANGES in v0.4.0"
+    },
+    {
+      "id": "new-includes-and-scss",
+      "text": "New includes and SCSS"
+    },
+    {
+      "id": "favicons",
+      "text": "favicons"
+    },
+    {
+      "id": "custom-callout-colors",
+      "text": "Custom callout colors"
+    },
+    {
+      "id": "pages-and-collections",
+      "text": "Pages and collections"
+    },
+    {
+      "id": "relative-urls",
+      "text": "Relative URLs"
+    },
+    {
+      "id": "navigation-order",
+      "text": "Navigation order"
+    },
+    {
+      "id": "deprecations",
+      "text": "DEPRECATIONS"
+    },
+    {
+      "id": "jekyll-3",
+      "text": "Jekyll 3"
+    },
+    {
+      "id": "footer-content-configuration",
+      "text": "Footer content configuration"
+    },
+    {
+      "id": "theme-website-changes",
+      "text": "THEME WEBSITE CHANGES"
+    },
+    {
+      "id": "home-page",
+      "text": "Home page"
+    },
+    {
+      "id": "changelog",
+      "text": "CHANGELOG"
+    },
+    {
+      "id": "non-breaking-changes-outline-only",
+      "text": "NON-BREAKING CHANGES (OUTLINE ONLY)"
+    },
+    {
+      "id": "accessibility",
+      "text": "Accessibility"
+    },
+    {
+      "id": "configuration",
+      "text": "Configuration"
+    },
+    {
+      "id": "customization",
+      "text": "Customization"
+    },
+    {
+      "id": "custom-includes",
+      "text": "Custom Includes"
+    },
+    {
+      "id": "modular-components",
+      "text": "Modular Components"
+    },
+    {
+      "id": "navigation",
+      "text": "Navigation"
+    },
+    {
+      "id": "search",
+      "text": "Search"
+    },
+    {
+      "id": "styling",
+      "text": "Styling"
+    }
+  ],
+  "/docs/Martial Arts Secrets/Nine-word mantra/": [
+    {
+      "id": "九字真言手印",
+      "text": "九字真言手印"
+    },
+    {
+      "id": "每个字对应的手印",
+      "text": "每个字对应的手印"
+    },
+    {
+      "id": "九字真言启源",
+      "text": "九字真言启源"
+    },
+    {
+      "id": "九字真言多语言",
+      "text": "九字真言多语言"
+    }
+  ],
+  "/docs/Martial Arts Secrets/Six-word mantra/": [
+    {
+      "id": "六字真言",
+      "text": "六字真言"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/about-page/": [
+    {
+      "id": "2026-11-17-关于页完整移植与排版优化",
+      "text": "2026-11-17 关于页完整移植与排版优化"
+    },
+    {
+      "id": "内容来源与范围",
+      "text": "内容来源与范围"
+    },
+    {
+      "id": "排版与行为",
+      "text": "排版与行为"
+    },
+    {
+      "id": "验收记录",
+      "text": "验收记录"
+    },
+    {
+      "id": "备份",
+      "text": "备份"
+    },
+    {
+      "id": "发布结果",
+      "text": "发布结果"
+    }
+  ],
+  "/docs/Website Building Notes/ai-search-2026-11-05/": [
+    {
+      "id": "念真联网-2026-11-05-版本更新bing缓存与失败冷却",
+      "text": "念真联网 2026-11-05 版本更新：Bing、缓存与失败冷却"
+    },
+    {
+      "id": "一版本信息",
+      "text": "一、版本信息"
+    },
+    {
+      "id": "二这次改了什么",
+      "text": "二、这次改了什么"
+    },
+    {
+      "id": "1-bing-html-作为中文补充源",
+      "text": "1. Bing HTML 作为中文补充源"
+    },
+    {
+      "id": "2-5-分钟搜索结果缓存",
+      "text": "2. 5 分钟搜索结果缓存"
+    },
+    {
+      "id": "3-失败分类与引擎冷却",
+      "text": "3. 失败分类与引擎冷却"
+    },
+    {
+      "id": "三行为变化对客户端",
+      "text": "三、行为变化（对客户端）"
+    },
+    {
+      "id": "四验证记录",
+      "text": "四、验证记录"
+    },
+    {
+      "id": "单测",
+      "text": "单测"
+    },
+    {
+      "id": "线上",
+      "text": "线上"
+    },
+    {
+      "id": "未受影响的防护",
+      "text": "未受影响的防护"
+    },
+    {
+      "id": "五已知限制",
+      "text": "五、已知限制"
+    },
+    {
+      "id": "六回滚",
+      "text": "六、回滚"
+    },
+    {
+      "id": "七后续",
+      "text": "七、后续"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/ancestry/": [
+    {
+      "id": "ancestry",
+      "text": "Ancestry"
+    },
+    {
+      "id": "example-distinguishing-parents-with-grand_parent",
+      "text": "Example: distinguishing parents with grand_parent"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/appearance-navigation/": [
+    {
+      "id": "2026-11-17-玻璃导航外观面板与手机交互修复",
+      "text": "2026-11-17 玻璃导航、外观面板与手机交互修复"
+    },
+    {
+      "id": "用户需求",
+      "text": "用户需求"
+    },
+    {
+      "id": "源码参考与实现边界",
+      "text": "源码参考与实现边界"
+    },
+    {
+      "id": "实际变更",
+      "text": "实际变更"
+    },
+    {
+      "id": "验收过程",
+      "text": "验收过程"
+    },
+    {
+      "id": "备份与限制",
+      "text": "备份与限制"
+    },
+    {
+      "id": "发布结果",
+      "text": "发布结果"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/auxiliary/": [
+    {
+      "id": "auxiliary-links",
+      "text": "Auxiliary Links"
+    },
+    {
+      "id": "example-auxiliary-link",
+      "text": "Example Auxiliary Link"
+    }
+  ],
+  "/docs/Usage Guidelines/ui-components/buttons/": [
+    {
+      "id": "按钮",
+      "text": "按钮"
+    },
+    {
+      "id": "目录",
+      "text": "目录"
+    },
+    {
+      "id": "basic-button-styles",
+      "text": "Basic button styles"
+    },
+    {
+      "id": "links-that-look-like-buttons",
+      "text": "Links that look like buttons"
+    },
+    {
+      "id": "button-element",
+      "text": "Button element"
+    },
+    {
+      "id": "using-utilities-with-buttons",
+      "text": "Using utilities with buttons"
+    },
+    {
+      "id": "button-size",
+      "text": "Button size"
+    },
+    {
+      "id": "spacing-between-buttons",
+      "text": "Spacing between buttons"
+    }
+  ],
+  "/docs/Usage Guidelines/ui-components/callouts/": [
+    {
+      "id": "标注",
+      "text": "标注"
+    },
+    {
+      "id": "an-untitled-callout",
+      "text": "An untitled callout"
+    },
+    {
+      "id": "a-single-paragraph-callout",
+      "text": "A single paragraph callout"
+    },
+    {
+      "id": "a-multi-paragraph-callout",
+      "text": "A multi-paragraph callout"
+    },
+    {
+      "id": "an-indented-callout",
+      "text": "An indented callout"
+    },
+    {
+      "id": "indented-multi-paragraph-callouts",
+      "text": "Indented multi-paragraph callouts"
+    },
+    {
+      "id": "nested-callouts",
+      "text": "Nested callouts"
+    },
+    {
+      "id": "opaque-background",
+      "text": "Opaque background"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/cards-background-settings/": [
+    {
+      "id": "2026-11-18-文章卡片底栏与背景设置分离",
+      "text": "2026-11-18 文章卡片底栏与背景设置分离"
+    },
+    {
+      "id": "用户反馈与原因",
+      "text": "用户反馈与原因"
+    },
+    {
+      "id": "修改",
+      "text": "修改"
+    },
+    {
+      "id": "备份与验证",
+      "text": "备份与验证"
+    },
+    {
+      "id": "本地生产构建验收",
+      "text": "本地生产构建验收"
+    },
+    {
+      "id": "发布",
+      "text": "发布"
+    }
+  ],
+  "/docs/blog-guide/changelog/": [
+    {
+      "id": "更新日志",
+      "text": "更新日志"
+    },
+    {
+      "id": "一条长什么样",
+      "text": "一条长什么样"
+    },
+    {
+      "id": "三条规矩",
+      "text": "三条规矩"
+    },
+    {
+      "id": "校验",
+      "text": "校验"
+    }
+  ],
+  "/docs/Website Building Notes/chat-ambient/": [
+    {
+      "id": "聊天页背景与落款把单调改成深夜的房间",
+      "text": "聊天页背景与落款：把「单调」改成「深夜的房间」"
+    },
+    {
+      "id": "一结论",
+      "text": "一、结论"
+    },
+    {
+      "id": "二诊断对着线上页面逐条有据",
+      "text": "二、诊断（对着线上页面，逐条有据）"
+    },
+    {
+      "id": "21-背景低空间频率--图底反转",
+      "text": "2.1 背景：低空间频率 + 图底反转"
+    },
+    {
+      "id": "22-落款明度优先级倒挂",
+      "text": "2.2 落款：明度优先级倒挂"
+    },
+    {
+      "id": "23-顺手发现的既有缺陷",
+      "text": "2.3 顺手发现的既有缺陷"
+    },
+    {
+      "id": "三从-github-学到什么",
+      "text": "三、从 GitHub 学到什么"
+    },
+    {
+      "id": "四设计师视角",
+      "text": "四、设计师视角"
+    },
+    {
+      "id": "41-概念深夜的房间",
+      "text": "4.1 概念：深夜的房间"
+    },
+    {
+      "id": "42-三个方向",
+      "text": "4.2 三个方向"
+    },
+    {
+      "id": "43-落款从法务信息到身份信息",
+      "text": "4.3 落款：从「法务信息」到「身份信息」"
+    },
+    {
+      "id": "44-廉价感的阈值",
+      "text": "4.4 廉价感的阈值"
+    },
+    {
+      "id": "五架构师视角",
+      "text": "五、架构师视角"
+    },
+    {
+      "id": "51-层叠契约最容易翻车",
+      "text": "5.1 层叠契约（最容易翻车）"
+    },
+    {
+      "id": "52-运行时契约",
+      "text": "5.2 运行时契约"
+    },
+    {
+      "id": "53-性能红线",
+      "text": "5.3 性能红线"
+    },
+    {
+      "id": "54-降级",
+      "text": "5.4 降级"
+    },
+    {
+      "id": "55-缓存与双仓",
+      "text": "5.5 缓存与双仓"
+    },
+    {
+      "id": "六这次改了什么",
+      "text": "六、这次改了什么"
+    },
+    {
+      "id": "七验收记录",
+      "text": "七、验收记录"
+    },
+    {
+      "id": "八后续",
+      "text": "八、后续"
+    }
+  ],
+  "/docs/Website Building Notes/chat-subsite-modules/": [
+    {
+      "id": "聊天子站的三模块改造",
+      "text": "聊天子站的三模块改造"
+    },
+    {
+      "id": "一判断问题不在功能在结构",
+      "text": "一、判断：问题不在功能，在结构"
+    },
+    {
+      "id": "二壳层手机式的应用抽屉",
+      "text": "二、壳层：手机式的应用抽屉"
+    },
+    {
+      "id": "三对话游戏凌晨两点十七分",
+      "text": "三、对话游戏：《凌晨两点十七分》"
+    },
+    {
+      "id": "运行时",
+      "text": "运行时"
+    },
+    {
+      "id": "剧本格式",
+      "text": "剧本格式"
+    },
+    {
+      "id": "自检",
+      "text": "自检"
+    },
+    {
+      "id": "四ai-模块自带模型的对话页",
+      "text": "四、AI 模块：自带模型的对话页"
+    },
+    {
+      "id": "没有后端",
+      "text": "没有后端"
+    },
+    {
+      "id": "客户端",
+      "text": "客户端"
+    },
+    {
+      "id": "人格与工具",
+      "text": "人格与工具"
+    },
+    {
+      "id": "markdown",
+      "text": "Markdown"
+    },
+    {
+      "id": "五开源项目与各自的贡献",
+      "text": "五、开源项目与各自的贡献"
+    },
+    {
+      "id": "六验证清单",
+      "text": "六、验证清单"
+    },
+    {
+      "id": "七已知限制",
+      "text": "七、已知限制"
+    },
+    {
+      "id": "八下一步按性价比排序",
+      "text": "八、下一步（按性价比排序）"
+    },
+    {
+      "id": "九文件位置",
+      "text": "九、文件位置"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/children/": [
+    {
+      "id": "child-pages",
+      "text": "Child Pages"
+    },
+    {
+      "id": "example-disabling-table-of-contents",
+      "text": "Example: disabling table of contents"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/chrome-qa/": [
+    {
+      "id": "2026-11-17-chrome-真实交互验收",
+      "text": "2026-11-17 Chrome 真实交互验收"
+    },
+    {
+      "id": "已通过",
+      "text": "已通过"
+    },
+    {
+      "id": "本轮后续修复",
+      "text": "本轮后续修复"
+    },
+    {
+      "id": "当时未通过或尚未覆盖",
+      "text": "当时未通过或尚未覆盖"
+    },
+    {
+      "id": "产物",
+      "text": "产物"
+    },
+    {
+      "id": "最终部署",
+      "text": "最终部署"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/collections/": [
+    {
+      "id": "collections",
+      "text": "Collections"
+    },
+    {
+      "id": "example-defining-custom-collections",
+      "text": "Example: defining custom collections"
+    },
+    {
+      "id": "example-multiple-collections",
+      "text": "Example: multiple collections"
+    }
+  ],
+  "/docs/Usage Guidelines/utilities/color/": [
+    {
+      "id": "color-utilities",
+      "text": "Color Utilities"
+    },
+    {
+      "id": "table-of-contents",
+      "text": "Table of contents"
+    },
+    {
+      "id": "light-greys",
+      "text": "Light Greys"
+    },
+    {
+      "id": "dark-greys",
+      "text": "Dark Greys"
+    },
+    {
+      "id": "purples",
+      "text": "Purples"
+    },
+    {
+      "id": "blues",
+      "text": "Blues"
+    },
+    {
+      "id": "greens",
+      "text": "Greens"
+    },
+    {
+      "id": "yellows",
+      "text": "Yellows"
+    },
+    {
+      "id": "reds",
+      "text": "Reds"
+    }
+  ],
+  "/docs/blog-guide/comments/": [
+    {
+      "id": "评论",
+      "text": "评论"
+    },
+    {
+      "id": "读者怎么发",
+      "text": "读者怎么发"
+    },
+    {
+      "id": "为什么不用自建评论",
+      "text": "为什么不用自建评论"
+    }
+  ],
+  "/docs/Usage Guidelines/configuration/": [
+    {
+      "id": "配置",
+      "text": "配置"
+    },
+    {
+      "id": "目录",
+      "text": "目录"
+    },
+    {
+      "id": "site-logo",
+      "text": "Site logo"
+    },
+    {
+      "id": "site-favicon",
+      "text": "Site favicon"
+    },
+    {
+      "id": "search",
+      "text": "Search"
+    },
+    {
+      "id": "mermaid-diagrams",
+      "text": "Mermaid Diagrams"
+    },
+    {
+      "id": "aux-links",
+      "text": "Aux links"
+    },
+    {
+      "id": "navigation-sidebar",
+      "text": "Navigation sidebar"
+    },
+    {
+      "id": "heading-anchor-links",
+      "text": "Heading anchor links"
+    },
+    {
+      "id": "external-navigation-links",
+      "text": "External navigation links"
+    },
+    {
+      "id": "footer-content",
+      "text": "Footer content"
+    },
+    {
+      "id": "color-scheme",
+      "text": "Color scheme"
+    },
+    {
+      "id": "callouts",
+      "text": "Callouts"
+    },
+    {
+      "id": "google-analytics",
+      "text": "Google Analytics"
+    },
+    {
+      "id": "multiple-ids",
+      "text": "Multiple IDs"
+    },
+    {
+      "id": "document-collections",
+      "text": "Document collections"
+    }
+  ],
+  "/docs/Usage Guidelines/customization/": [
+    {
+      "id": "customization",
+      "text": "Customization"
+    },
+    {
+      "id": "table-of-contents",
+      "text": "Table of contents"
+    },
+    {
+      "id": "配色方案",
+      "text": "配色方案"
+    },
+    {
+      "id": "示例-预览深色配色方案",
+      "text": "示例: 预览深色配色方案"
+    },
+    {
+      "id": "deprecated-legacy_light",
+      "text": "deprecated: legacy_light"
+    },
+    {
+      "id": "custom-schemes",
+      "text": "Custom schemes"
+    },
+    {
+      "id": "define-a-custom-scheme",
+      "text": "Define a custom scheme"
+    },
+    {
+      "id": "example-custom-link-color",
+      "text": "Example: custom link color"
+    },
+    {
+      "id": "use-a-custom-scheme",
+      "text": "Use a custom scheme"
+    },
+    {
+      "id": "switchable-custom-scheme",
+      "text": "Switchable custom scheme"
+    },
+    {
+      "id": "override-and-define-new-variables",
+      "text": "Override and define new variables"
+    },
+    {
+      "id": "override-and-completely-custom-styles",
+      "text": "Override and completely custom styles"
+    },
+    {
+      "id": "example-custom-print-styles",
+      "text": "Example: custom print styles"
+    },
+    {
+      "id": "override-includes",
+      "text": "Override includes"
+    },
+    {
+      "id": "custom-toc-heading",
+      "text": "Custom TOC Heading"
+    },
+    {
+      "id": "example-changing-toc-heading",
+      "text": "Example: changing TOC heading"
+    },
+    {
+      "id": "custom-footer",
+      "text": "Custom Footer"
+    },
+    {
+      "id": "custom-head",
+      "text": "Custom Head"
+    },
+    {
+      "id": "custom-header",
+      "text": "Custom Header"
+    },
+    {
+      "id": "custom-nav-footer",
+      "text": "Custom Nav Footer"
+    },
+    {
+      "id": "custom-search-placeholder",
+      "text": "Custom Search Placeholder"
+    },
+    {
+      "id": "custom-layouts-and-includes",
+      "text": "Custom layouts and includes"
+    },
+    {
+      "id": "default-layout-and-includable-components",
+      "text": "Default layout and includable components"
+    },
+    {
+      "id": "component-summary",
+      "text": "Component summary"
+    },
+    {
+      "id": "alternative-layouts-and-example-minimal",
+      "text": "Alternative layouts and example (minimal)"
+    },
+    {
+      "id": "default-layout-and-inheritance-chain",
+      "text": "Default layout and inheritance chain"
+    },
+    {
+      "id": "overridden-default-jekyll-layouts",
+      "text": "Overridden default Jekyll layouts"
+    }
+  ],
+  "/docs/Usage Guidelines/layout/minimal/default-child/": [
+    {
+      "id": "最小布局页面",
+      "text": "最小布局页面"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/design-consistency-roadmap/": [
+    {
+      "id": "后续整改目标整站设计与交互统一验收",
+      "text": "后续整改目标：整站设计与交互统一验收"
+    },
+    {
+      "id": "目标",
+      "text": "目标"
+    },
+    {
+      "id": "待办与验收条件",
+      "text": "待办与验收条件"
+    },
+    {
+      "id": "执行与留证",
+      "text": "执行与留证"
+    },
+    {
+      "id": "关联记录",
+      "text": "关联记录"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/exclude/": [
+    {
+      "id": "excluding-pages",
+      "text": "Excluding Pages"
+    },
+    {
+      "id": "example-using-nav_exclude",
+      "text": "Example: using nav_exclude"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/execution/": [
+    {
+      "id": "2026-11-17-执行与备份",
+      "text": "2026-11-17 执行与备份"
+    },
+    {
+      "id": "范围",
+      "text": "范围"
+    },
+    {
+      "id": "备份",
+      "text": "备份"
+    },
+    {
+      "id": "内容分类",
+      "text": "内容分类"
+    },
+    {
+      "id": "风险控制",
+      "text": "风险控制"
+    },
+    {
+      "id": "阶段收尾",
+      "text": "阶段收尾"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/external/": [
+    {
+      "id": "external-links",
+      "text": "External Links"
+    },
+    {
+      "id": "example-external-links",
+      "text": "Example: external links"
+    },
+    {
+      "id": "opening-external-links-in-a-new-tab",
+      "text": "Opening external links in a new tab"
+    }
+  ],
+  "/docs/blog-guide/rules/front-matter/": [
+    {
+      "id": "front-matter-字段",
+      "text": "Front Matter 字段"
+    },
+    {
+      "id": "封面图想带说明",
+      "text": "封面图想带说明"
+    },
+    {
+      "id": "摘要别写太长",
+      "text": "摘要别写太长"
+    }
+  ],
+  "/docs/Website Building Notes/git-history-slim/": [
+    {
+      "id": "把-git-历史瘦下来",
+      "text": "把 Git 历史瘦下来"
+    },
+    {
+      "id": "一句话",
+      "text": "一句话"
+    },
+    {
+      "id": "名词解释",
+      "text": "名词解释"
+    },
+    {
+      "id": "原理",
+      "text": "原理"
+    },
+    {
+      "id": "操作",
+      "text": "操作"
+    },
+    {
+      "id": "阈值怎么定",
+      "text": "阈值怎么定"
+    },
+    {
+      "id": "代价",
+      "text": "代价"
+    },
+    {
+      "id": "验证清单",
+      "text": "验证清单"
+    },
+    {
+      "id": "实测",
+      "text": "实测"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/home-archive-links/": [
+    {
+      "id": "2026-11-18-全屏首页文章日历与链接页",
+      "text": "2026-11-18 全屏首页、文章日历与链接页"
+    },
+    {
+      "id": "需求与决策",
+      "text": "需求与决策"
+    },
+    {
+      "id": "参考源码",
+      "text": "参考源码"
+    },
+    {
+      "id": "页面与交互",
+      "text": "页面与交互"
+    },
+    {
+      "id": "备份与验收",
+      "text": "备份与验收"
+    },
+    {
+      "id": "浏览器验收",
+      "text": "浏览器验收"
+    },
+    {
+      "id": "pages-发布与线上核对",
+      "text": "Pages 发布与线上核对"
+    }
+  ],
+  "/docs/blog-guide/studio/images/": [
+    {
+      "id": "图片与附件",
+      "text": "图片与附件"
+    },
+    {
+      "id": "插图片",
+      "text": "插图片"
+    },
+    {
+      "id": "调整大小",
+      "text": "调整大小"
+    },
+    {
+      "id": "会自动压缩",
+      "text": "会自动压缩"
+    },
+    {
+      "id": "大文件别塞仓库",
+      "text": "大文件别塞仓库"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/in-page/": [
+    {
+      "id": "in-page-navigation",
+      "text": "In-Page Navigation"
+    },
+    {
+      "id": "table-of-contents",
+      "text": "Table of Contents"
+    },
+    {
+      "id": "generating-table-of-contents",
+      "text": "Generating Table of Contents"
+    },
+    {
+      "id": "omitting-heading-from-table-of-contents",
+      "text": "Omitting Heading from Table of Contents"
+    },
+    {
+      "id": "collapsible-table-of-contents-with-details-and-summary",
+      "text": "Collapsible Table of Contents (with <details> and <summary>)"
+    },
+    {
+      "id": "back-to-top-doc",
+      "text": "Back to Top"
+    },
+    {
+      "id": "example",
+      "text": "Example"
+    }
+  ],
+  "/docs/Usage Guidelines/index-test/": [
+    {
+      "id": "标题-1",
+      "text": "标题 1"
+    },
+    {
+      "id": "标题-2",
+      "text": "标题 2"
+    },
+    {
+      "id": "标题-3",
+      "text": "标题 3"
+    },
+    {
+      "id": "标题-4-代码未转换",
+      "text": "标题 4 代码未转换"
+    },
+    {
+      "id": "标题-5",
+      "text": "标题 5"
+    },
+    {
+      "id": "标题-6",
+      "text": "标题 6"
+    },
+    {
+      "id": "下方有一条水平线",
+      "text": "下方有一条水平线。"
+    },
+    {
+      "id": "这是一个无序列表",
+      "text": "这是一个无序列表:"
+    },
+    {
+      "id": "有序列表",
+      "text": "有序列表:"
+    },
+    {
+      "id": "有序列表继续",
+      "text": "有序列表，继续:"
+    },
+    {
+      "id": "有序列表从-42-开始",
+      "text": "有序列表从 42 开始:"
+    },
+    {
+      "id": "嵌套列表",
+      "text": "嵌套列表:"
+    },
+    {
+      "id": "将-ol-嵌套在-ul-中",
+      "text": "将 ol 嵌套在 ul 中"
+    },
+    {
+      "id": "任务列表",
+      "text": "任务列表"
+    },
+    {
+      "id": "嵌套任务列表",
+      "text": "嵌套任务列表"
+    },
+    {
+      "id": "在任务列表中嵌套无序列表",
+      "text": "在任务列表中嵌套无序列表"
+    },
+    {
+      "id": "在无序列表中嵌套任务列表",
+      "text": "在无序列表中嵌套任务列表"
+    },
+    {
+      "id": "小图片",
+      "text": "小图片"
+    },
+    {
+      "id": "大图片",
+      "text": "大图片"
+    },
+    {
+      "id": "标签",
+      "text": "标签"
+    },
+    {
+      "id": "定义列表可以使用-html-语法",
+      "text": "定义列表可以使用 HTML 语法。"
+    },
+    {
+      "id": "多个描述术语和值",
+      "text": "多个描述术语和值"
+    },
+    {
+      "id": "更多代码",
+      "text": "更多代码"
+    },
+    {
+      "id": "mermaid-图表",
+      "text": "Mermaid 图表"
+    },
+    {
+      "id": "折叠部分",
+      "text": "折叠部分"
+    }
+  ],
+  "/docs/Martial Arts Secrets/": [
+    {
+      "id": "武林秘籍",
+      "text": "武林秘籍"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/": [
+    {
+      "id": "astro-迁移记录",
+      "text": "Astro 迁移记录"
+    }
+  ],
+  "/docs/Usage Guidelines/": [
+    {
+      "id": "使用指南",
+      "text": "使用指南"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/": [
+    {
+      "id": "main-navigation",
+      "text": "Main Navigation"
+    }
+  ],
+  "/docs/blog-guide/studio/": [
+    {
+      "id": "写作台",
+      "text": "写作台"
+    }
+  ],
+  "/docs/Site Navigation/Ai/": [
+    {
+      "id": "人工智能工具与服务导航",
+      "text": "人工智能工具与服务导航"
+    },
+    {
+      "id": "ai-服务",
+      "text": "AI 服务"
+    },
+    {
+      "id": "ai-聊天助手",
+      "text": "AI 聊天助手"
+    },
+    {
+      "id": "ai-写作工具",
+      "text": "AI 写作工具"
+    },
+    {
+      "id": "ai-设计与图像工具",
+      "text": "AI 设计与图像工具"
+    },
+    {
+      "id": "ai-收费工具",
+      "text": "AI 收费工具"
+    },
+    {
+      "id": "ai-开发与开源项目",
+      "text": "AI 开发与开源项目"
+    },
+    {
+      "id": "未分类工具",
+      "text": "未分类工具"
+    }
+  ],
+  "/docs/Usage Guidelines/utilities/": [
+    {
+      "id": "utilities",
+      "text": "Utilities"
+    }
+  ],
+  "/": [
+    {
+      "id": "专注于高质量文档编写",
+      "text": "专注于高质量文档编写"
+    },
+    {
+      "id": "开始",
+      "text": "开始"
+    },
+    {
+      "id": "关于项目",
+      "text": "关于项目"
+    },
+    {
+      "id": "特别感谢-just-the-docs-的贡献者",
+      "text": "特别感谢 Just the Docs 的贡献者"
+    },
+    {
+      "id": "相关链接",
+      "text": "相关链接"
+    }
+  ],
+  "/docs/Website Building Notes/": [
+    {
+      "id": "建站笔记",
+      "text": "建站笔记"
+    },
+    {
+      "id": "目录",
+      "text": "目录"
+    },
+    {
+      "id": "lunrjs-添加中文支持",
+      "text": "lunr.js 添加中文支持"
+    },
+    {
+      "id": "基本使用-lunrjs",
+      "text": "基本使用 Lunr.js"
+    },
+    {
+      "id": "1-引入-lunrjs",
+      "text": "1. 引入 Lunr.js"
+    },
+    {
+      "id": "方法-1直接加载文件",
+      "text": "方法 1：直接加载文件"
+    },
+    {
+      "id": "方法-2使用-npm",
+      "text": "方法 2：使用 npm"
+    },
+    {
+      "id": "2-构建索引",
+      "text": "2. 构建索引"
+    },
+    {
+      "id": "创建索引对象",
+      "text": "创建索引对象"
+    },
+    {
+      "id": "示例文档数据",
+      "text": "示例文档数据"
+    },
+    {
+      "id": "3-执行搜索",
+      "text": "3. 执行搜索"
+    },
+    {
+      "id": "添加中文支持",
+      "text": "添加中文支持"
+    },
+    {
+      "id": "1-引入-lunrjs-中文分词插件",
+      "text": "1. 引入 Lunr.js 中文分词插件"
+    },
+    {
+      "id": "安装插件",
+      "text": "安装插件"
+    },
+    {
+      "id": "2-初始化支持中文的索引",
+      "text": "2. 初始化支持中文的索引"
+    },
+    {
+      "id": "3-配置中文分词",
+      "text": "3. 配置中文分词"
+    },
+    {
+      "id": "示例使用-nodejieba-分词",
+      "text": "示例：使用 nodejieba 分词"
+    },
+    {
+      "id": "部署到前端",
+      "text": "部署到前端"
+    },
+    {
+      "id": "总结",
+      "text": "总结"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/": [
+    {
+      "id": "navigation",
+      "text": "Navigation"
+    }
+  ],
+  "/docs/blog-guide/": [
+    {
+      "id": "博客使用说明",
+      "text": "博客使用说明"
+    }
+  ],
+  "/docs/Usage Guidelines/ui-components/code/": [
+    {
+      "id": "code",
+      "text": "Code"
+    },
+    {
+      "id": "table-of-contents",
+      "text": "Table of contents"
+    },
+    {
+      "id": "inline-code",
+      "text": "Inline code"
+    },
+    {
+      "id": "heading-with-inline-code-snippet-in-it",
+      "text": "Heading with <inline code snippet> in it."
+    },
+    {
+      "id": "syntax-highlighted-code-blocks",
+      "text": "Syntax highlighted code blocks"
+    },
+    {
+      "id": "code-blocks-with-rendered-examples",
+      "text": "Code blocks with rendered examples"
+    },
+    {
+      "id": "mermaid-diagram-code-blocks",
+      "text": "Mermaid diagram code blocks"
+    },
+    {
+      "id": "using-a-local-mermaid-library",
+      "text": "Using a local mermaid library"
+    },
+    {
+      "id": "using-mermaid-with-asciidoc",
+      "text": "Using mermaid with AsciiDoc"
+    },
+    {
+      "id": "copy-button",
+      "text": "Copy button"
+    }
+  ],
+  "/docs/Usage Guidelines/ui-components/": [
+    {
+      "id": "ui-组件",
+      "text": "UI 组件"
+    }
+  ],
+  "/docs/blog-guide/rules/": [
+    {
+      "id": "文章规范",
+      "text": "文章规范"
+    }
+  ],
+  "/docs/Site Navigation/": [
+    {
+      "id": "网站导航",
+      "text": "网站导航"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/issues/": [
+    {
+      "id": "待处理问题与决策",
+      "text": "待处理问题与决策"
+    },
+    {
+      "id": "最新状态2026-11-17",
+      "text": "最新状态（2026-11-17）"
+    },
+    {
+      "id": "初始问题快照保留历史当前状态以上文及分项记录为准",
+      "text": "初始问题快照（保留历史，当前状态以上文及分项记录为准）"
+    },
+    {
+      "id": "依赖与构建",
+      "text": "依赖与构建"
+    },
+    {
+      "id": "初始待决事项快照",
+      "text": "初始待决事项快照"
+    },
+    {
+      "id": "2026-11-18-本批补充待验",
+      "text": "2026-11-18 本批补充待验"
+    }
+  ],
+  "/docs/Usage Guidelines/ui-components/labels/": [
+    {
+      "id": "标签",
+      "text": "标签"
+    }
+  ],
+  "/docs/Usage Guidelines/layout/layout/": [
+    {
+      "id": "布局layout",
+      "text": "布局（Layout）"
+    },
+    {
+      "id": "布局的概念",
+      "text": "布局的概念"
+    },
+    {
+      "id": "default-布局",
+      "text": "default 布局"
+    },
+    {
+      "id": "minimal-布局",
+      "text": "minimal 布局"
+    },
+    {
+      "id": "有选择地隐藏或显示侧边栏",
+      "text": "有选择地隐藏或显示侧边栏"
+    },
+    {
+      "id": "其他布局",
+      "text": "其他布局"
+    }
+  ],
+  "/docs/Usage Guidelines/utilities/layout/": [
+    {
+      "id": "布局实用程序",
+      "text": "布局实用程序"
+    },
+    {
+      "id": "目录",
+      "text": "目录"
+    },
+    {
+      "id": "spacing",
+      "text": "spacing"
+    },
+    {
+      "id": "applying-spacing-utilities-with--",
+      "text": "Applying Spacing Utilities with {: }"
+    },
+    {
+      "id": "horizontal-alignment",
+      "text": "Horizontal Alignment"
+    },
+    {
+      "id": "vertical-alignment",
+      "text": "Vertical Alignment"
+    },
+    {
+      "id": "display",
+      "text": "Display"
+    },
+    {
+      "id": "applying-display-utilities-with--",
+      "text": "Applying Display Utilities with {: }"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/levels/": [
+    {
+      "id": "page-levels",
+      "text": "Page Levels"
+    },
+    {
+      "id": "example-page-with-no-parents",
+      "text": "Example: page with no parents"
+    },
+    {
+      "id": "child-pages",
+      "text": "Child Pages"
+    },
+    {
+      "id": "example-creating-a-child-page",
+      "text": "Example: creating a child page"
+    },
+    {
+      "id": "multi-level-child-pages",
+      "text": "Multi-level Child Pages"
+    },
+    {
+      "id": "example-pages-with-recursive-children",
+      "text": "Example: pages with (recursive) children"
+    }
+  ],
+  "/docs/Usage Guidelines/ui-components/code/line-numbers/": [
+    {
+      "id": "code-snippets-with-line-numbers",
+      "text": "Code Snippets with Line Numbers"
+    },
+    {
+      "id": "detailed-error-explanation",
+      "text": "Detailed Error Explanation"
+    }
+  ],
+  "/docs/Usage Guidelines/ui-components/lists/": [
+    {
+      "id": "lists",
+      "text": "Lists"
+    },
+    {
+      "id": "table-of-contents",
+      "text": "Table of contents"
+    },
+    {
+      "id": "unordered-list",
+      "text": "Unordered list"
+    },
+    {
+      "id": "ordered-list",
+      "text": "Ordered list"
+    },
+    {
+      "id": "task-list",
+      "text": "Task list"
+    },
+    {
+      "id": "definition-list",
+      "text": "Definition list"
+    }
+  ],
+  "/docs/blog-guide/studio/login/": [
+    {
+      "id": "登录与授权",
+      "text": "登录与授权"
+    },
+    {
+      "id": "怎么拿",
+      "text": "怎么拿"
+    },
+    {
+      "id": "存在哪",
+      "text": "存在哪"
+    },
+    {
+      "id": "会过期",
+      "text": "会过期"
+    },
+    {
+      "id": "几个注意事项",
+      "text": "几个注意事项"
+    }
+  ],
+  "/docs/Website Building Notes/lunr-languages/": [
+    {
+      "id": "1-安装依赖",
+      "text": "1. 安装依赖"
+    },
+    {
+      "id": "使用-npm-安装",
+      "text": "使用 npm 安装"
+    },
+    {
+      "id": "或者使用-cdn-引入",
+      "text": "或者使用 CDN 引入"
+    },
+    {
+      "id": "2-单语言索引的构建以中文为例",
+      "text": "2. 单语言索引的构建（以中文为例）"
+    },
+    {
+      "id": "示例文档",
+      "text": "示例文档"
+    },
+    {
+      "id": "构建中文索引",
+      "text": "构建中文索引"
+    },
+    {
+      "id": "3-多语言索引",
+      "text": "3. 多语言索引"
+    },
+    {
+      "id": "多语言示例文档",
+      "text": "多语言示例文档"
+    },
+    {
+      "id": "构建多语言索引",
+      "text": "构建多语言索引"
+    },
+    {
+      "id": "4-序列化和反序列化索引",
+      "text": "4. 序列化和反序列化索引"
+    },
+    {
+      "id": "序列化索引",
+      "text": "序列化索引"
+    },
+    {
+      "id": "反序列化索引",
+      "text": "反序列化索引"
+    },
+    {
+      "id": "5-提高中文分词效果",
+      "text": "5. 提高中文分词效果"
+    },
+    {
+      "id": "示例使用-nodejieba-分词",
+      "text": "示例：使用 nodejieba 分词"
+    },
+    {
+      "id": "总结",
+      "text": "总结"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/manual-ci-links/": [
+    {
+      "id": "2026-11-18-文档站红叉与站内链接修复",
+      "text": "2026-11-18 文档站红叉与站内链接修复"
+    },
+    {
+      "id": "现象与根因",
+      "text": "现象与根因"
+    },
+    {
+      "id": "修复范围与验证",
+      "text": "修复范围与验证"
+    },
+    {
+      "id": "发布结果",
+      "text": "发布结果"
+    }
+  ],
+  "/docs/Usage Guidelines/layout/minimal/minimal-child/": [
+    {
+      "id": "最小布局子页面",
+      "text": "最小布局子页面"
+    }
+  ],
+  "/docs/Usage Guidelines/minimal-test/": [
+    {
+      "id": "最小布局测试页面",
+      "text": "最小布局测试页面"
+    }
+  ],
+  "/docs/Usage Guidelines/layout/minimal/minimal/": [
+    {
+      "id": "最小布局页面",
+      "text": "最小布局页面"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/mobile-controls/": [
+    {
+      "id": "2026-11-17-手机菜单图谱与页脚修复",
+      "text": "2026-11-17 手机菜单、图谱与页脚修复"
+    },
+    {
+      "id": "本轮变更",
+      "text": "本轮变更"
+    },
+    {
+      "id": "验收",
+      "text": "验收"
+    },
+    {
+      "id": "备份与发布",
+      "text": "备份与发布"
+    },
+    {
+      "id": "留待后续",
+      "text": "留待后续"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/mobile-graph/": [
+    {
+      "id": "2026-11-17-手机图谱可读性与五项验收续记",
+      "text": "2026-11-17 手机图谱可读性与五项验收续记"
+    },
+    {
+      "id": "本轮改动",
+      "text": "本轮改动"
+    },
+    {
+      "id": "验证与边界",
+      "text": "验证与边界"
+    },
+    {
+      "id": "发布结果",
+      "text": "发布结果"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/mobile-ui-density/": [
+    {
+      "id": "2026-11-18-手机界面信息密度与图谱交互优化",
+      "text": "2026-11-18 手机界面信息密度与图谱交互优化"
+    },
+    {
+      "id": "用户反馈",
+      "text": "用户反馈"
+    },
+    {
+      "id": "整体原则与范围",
+      "text": "整体原则与范围"
+    },
+    {
+      "id": "备份与验收",
+      "text": "备份与验收"
+    },
+    {
+      "id": "本地验收",
+      "text": "本地验收"
+    },
+    {
+      "id": "整体-ui-发布与线上验证",
+      "text": "整体 UI 发布与线上验证"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/navigation-reading-taxonomy/": [
+    {
+      "id": "2026-11-18-导航收敛精选导读与分类整理",
+      "text": "2026-11-18 导航收敛、精选导读与分类整理"
+    },
+    {
+      "id": "授权与范围",
+      "text": "授权与范围"
+    },
+    {
+      "id": "导航与导读",
+      "text": "导航与导读"
+    },
+    {
+      "id": "分类规则",
+      "text": "分类规则"
+    },
+    {
+      "id": "维护位置与备份",
+      "text": "维护位置与备份"
+    },
+    {
+      "id": "验证与发布",
+      "text": "验证与发布"
+    },
+    {
+      "id": "浏览器与内容检查",
+      "text": "浏览器与内容检查"
+    },
+    {
+      "id": "发布",
+      "text": "发布"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/order/": [
+    {
+      "id": "ordering-pages",
+      "text": "Ordering Pages"
+    },
+    {
+      "id": "example-using-nav_order",
+      "text": "Example: using nav_order"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/parents/": [
+    {
+      "id": "breadcrumbs",
+      "text": "Breadcrumbs"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/projects-portfolio/": [
+    {
+      "id": "2026-11-18-项目页作品展示与补充链接",
+      "text": "2026-11-18 项目页作品展示与补充链接"
+    },
+    {
+      "id": "需求与资料",
+      "text": "需求与资料"
+    },
+    {
+      "id": "实现",
+      "text": "实现"
+    },
+    {
+      "id": "验证与记录",
+      "text": "验证与记录"
+    },
+    {
+      "id": "整体-ui-发布与线上验证",
+      "text": "整体 UI 发布与线上验证"
+    },
+    {
+      "id": "用户指定异次元通讯封面",
+      "text": "用户指定异次元通讯封面"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/public-review/": [
+    {
+      "id": "2026-11-17-公开预览与架构设计审查",
+      "text": "2026-11-17 公开预览与架构设计审查"
+    },
+    {
+      "id": "部署",
+      "text": "部署"
+    },
+    {
+      "id": "架构审查与修改",
+      "text": "架构审查与修改"
+    },
+    {
+      "id": "设计审查与修改",
+      "text": "设计审查与修改"
+    },
+    {
+      "id": "仍需后续确认",
+      "text": "仍需后续确认"
+    },
+    {
+      "id": "本轮验收结果",
+      "text": "本轮验收结果"
+    }
+  ],
+  "/docs/blog-guide/rules/punctuation/": [
+    {
+      "id": "标点与预检查",
+      "text": "标点与预检查"
+    },
+    {
+      "id": "中文标点会踩的坑",
+      "text": "中文标点会踩的坑"
+    },
+    {
+      "id": "日期在未来",
+      "text": "日期在未来"
+    },
+    {
+      "id": "推送前会自动检查",
+      "text": "推送前会自动检查"
+    }
+  ],
+  "/docs/Usage Guidelines/utilities/responsive-modifiers/": [
+    {
+      "id": "响应式修饰符",
+      "text": "响应式修饰符"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/search-and-home-motion/": [
+    {
+      "id": "2026-11-18-搜索面板与首页弹簧动效",
+      "text": "2026-11-18 搜索面板与首页弹簧动效"
+    },
+    {
+      "id": "用户反馈与原因",
+      "text": "用户反馈与原因"
+    },
+    {
+      "id": "设计与实现",
+      "text": "设计与实现"
+    },
+    {
+      "id": "验证与边界",
+      "text": "验证与边界"
+    },
+    {
+      "id": "备份与发布",
+      "text": "备份与发布"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/search-path-regression/": [
+    {
+      "id": "2026-11-17-浏览器恢复后发现的搜索路径回归",
+      "text": "2026-11-17 浏览器恢复后发现的搜索路径回归"
+    },
+    {
+      "id": "根因与修复",
+      "text": "根因与修复"
+    },
+    {
+      "id": "浏览器状态",
+      "text": "浏览器状态"
+    },
+    {
+      "id": "发布结果",
+      "text": "发布结果"
+    }
+  ],
+  "/docs/Usage Guidelines/search/": [
+    {
+      "id": "搜索",
+      "text": "搜索"
+    },
+    {
+      "id": "目录",
+      "text": "目录"
+    },
+    {
+      "id": "在配置中启用搜索",
+      "text": "在配置中启用搜索"
+    },
+    {
+      "id": "search-granularity",
+      "text": "Search granularity"
+    },
+    {
+      "id": "search-previews",
+      "text": "Search previews"
+    },
+    {
+      "id": "search-tokenizer",
+      "text": "Search tokenizer"
+    },
+    {
+      "id": "display-url-in-search-results",
+      "text": "Display URL in search results"
+    },
+    {
+      "id": "display-search-button",
+      "text": "Display search button"
+    },
+    {
+      "id": "focus-search-bar-with-a-keyboard-shortcut",
+      "text": "Focus search bar with a keyboard shortcut"
+    },
+    {
+      "id": "hiding-pages-from-search",
+      "text": "Hiding pages from search"
+    },
+    {
+      "id": "generate-search-index-when-used-as-a-gem",
+      "text": "Generate search index when used as a gem"
+    },
+    {
+      "id": "custom-content-for-search-index",
+      "text": "Custom content for search index"
+    },
+    {
+      "id": "example-adding-custom-usage-and-examples-fields",
+      "text": "Example: adding custom usage and examples fields"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/selected-batch/": [
+    {
+      "id": "2026-11-17-所选十项执行与验收",
+      "text": "2026-11-17 所选十项执行与验收"
+    },
+    {
+      "id": "验证命令",
+      "text": "验证命令"
+    },
+    {
+      "id": "补充检查",
+      "text": "补充检查"
+    },
+    {
+      "id": "部署收尾",
+      "text": "部署收尾"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/site-icon/": [
+    {
+      "id": "2026-11-17-透明月牙网站图标与分享缩略图",
+      "text": "2026-11-17 透明月牙网站图标与分享缩略图"
+    },
+    {
+      "id": "用户选择与素材来源",
+      "text": "用户选择与素材来源"
+    },
+    {
+      "id": "实现",
+      "text": "实现"
+    },
+    {
+      "id": "验收与限制",
+      "text": "验收与限制"
+    },
+    {
+      "id": "备份与发布",
+      "text": "备份与发布"
+    }
+  ],
+  "/docs/blog-guide/structure/": [
+    {
+      "id": "站点结构",
+      "text": "站点结构"
+    },
+    {
+      "id": "两个容易搞混的地方",
+      "text": "两个容易搞混的地方"
+    },
+    {
+      "id": "一句提醒",
+      "text": "一句提醒"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/supplied-site-icon/": [
+    {
+      "id": "2026-11-18-用户指定的透明人物网站图标",
+      "text": "2026-11-18 用户指定的透明人物网站图标"
+    },
+    {
+      "id": "用户决定",
+      "text": "用户决定"
+    },
+    {
+      "id": "文件与备份",
+      "text": "文件与备份"
+    },
+    {
+      "id": "实现",
+      "text": "实现"
+    },
+    {
+      "id": "验收",
+      "text": "验收"
+    },
+    {
+      "id": "pages-发布与线上核对",
+      "text": "Pages 发布与线上核对"
+    }
+  ],
+  "/docs/Usage Guidelines/ui-components/tables/": [
+    {
+      "id": "tables",
+      "text": "Tables"
+    }
+  ],
+  "/docs/Usage Guidelines/ui-components/typography/": [
+    {
+      "id": "typography",
+      "text": "Typography"
+    },
+    {
+      "id": "table-of-contents",
+      "text": "Table of contents"
+    },
+    {
+      "id": "font-stack",
+      "text": "Font stack"
+    },
+    {
+      "id": "responsive-type-scale",
+      "text": "Responsive type scale"
+    },
+    {
+      "id": "headings",
+      "text": "Headings"
+    },
+    {
+      "id": null,
+      "text": "Heading 1"
+    },
+    {
+      "id": null,
+      "text": "Heading 2"
+    },
+    {
+      "id": null,
+      "text": "Heading 3"
+    },
+    {
+      "id": null,
+      "text": "Heading 4"
+    },
+    {
+      "id": null,
+      "text": "Heading 5"
+    },
+    {
+      "id": null,
+      "text": "Heading 6"
+    },
+    {
+      "id": "body-text",
+      "text": "Body text"
+    },
+    {
+      "id": "inline-elements",
+      "text": "Inline elements"
+    },
+    {
+      "id": "typographic-utilities",
+      "text": "Typographic Utilities"
+    }
+  ],
+  "/docs/Usage Guidelines/utilities/typography/": [
+    {
+      "id": "排版实用工具",
+      "text": "排版实用工具"
+    },
+    {
+      "id": "目录",
+      "text": "目录"
+    },
+    {
+      "id": "font-size",
+      "text": "Font size"
+    },
+    {
+      "id": "font-weight",
+      "text": "Font weight"
+    },
+    {
+      "id": "line-height",
+      "text": "Line height"
+    },
+    {
+      "id": "text-justification",
+      "text": "Text justification"
+    }
+  ],
+  "/docs/Website Building Notes/astro-migration/validation/": [
+    {
+      "id": "2026-11-17-验证结果",
+      "text": "2026-11-17 验证结果"
+    },
+    {
+      "id": "已验证",
+      "text": "已验证"
+    },
+    {
+      "id": "验证边界",
+      "text": "验证边界"
+    },
+    {
+      "id": "最终验收",
+      "text": "最终验收"
+    }
+  ],
+  "/docs/blog-guide/studio/write/": [
+    {
+      "id": "写一篇文章",
+      "text": "写一篇文章"
+    },
+    {
+      "id": "新建",
+      "text": "新建"
+    },
+    {
+      "id": "正文",
+      "text": "正文"
+    },
+    {
+      "id": "保存",
+      "text": "保存"
+    },
+    {
+      "id": "改旧文",
+      "text": "改旧文"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/x/": [
+    {
+      "id": "x",
+      "text": "X"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/xs/": [
+    {
+      "id": "s",
+      "text": "S"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/xt/": [
+    {
+      "id": "t",
+      "text": "T"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/xu/": [
+    {
+      "id": "u",
+      "text": "U"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/y/": [
+    {
+      "id": "y",
+      "text": "Y"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/ys/": [
+    {
+      "id": "s",
+      "text": "S"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/yt/": [
+    {
+      "id": "t",
+      "text": "T"
+    }
+  ],
+  "/docs/Usage Guidelines/navigation/main/yu/": [
+    {
+      "id": "u",
+      "text": "U"
+    }
+  ]
+}

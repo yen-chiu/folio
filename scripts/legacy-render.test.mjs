@@ -1,0 +1,23 @@
+import assert from 'node:assert/strict';
+import { createSatteriMarkdownProcessor } from '@astrojs/markdown-satteri';
+import { readFileSync } from 'node:fs';
+import legacy from '../src/plugins/legacy-content.mjs';
+const renderer=await createSatteriMarkdownProcessor({hastPlugins:[legacy]});
+const archiveURL=new URL('../src/content/docs/legacy-guides/changelog.md',import.meta.url);
+const source=readFileSync(archiveURL,'utf8').replace(/^---[\s\S]*?\n---\n/,'');
+const archive=await renderer.render(source,{fileURL:archiveURL});
+assert.equal((archive.code.match(/<h1\b/g)||[]).length,0);
+assert.ok(archive.metadata.headings.length>100,'Archived headings must participate in the native TOC');
+assert.ok(!/(?:href|src)="\/WendellManual\//.test(archive.code),'Archived links must stay in Folio');
+const fileURL=new URL('../src/content/docs/building/astro-migration/chrome-qa.md',import.meta.url);
+const regular=await renderer.render('# 验证标题\n\n[下一页](../mobile-controls/)\n\n```text\n/WendellManual/code-sample\n```',{fileURL});
+assert.ok(regular.code.includes('/folio/building/astro-migration/mobile-controls/'));
+assert.ok(regular.code.includes('/WendellManual/code-sample'),'Do not rewrite URL-like text inside code blocks');
+assert.equal((regular.code.match(/<h1\b/g)||[]).length,0);
+console.log('Archived HTML headings/links and unchanged code examples verified with the native Markdown renderer');
+
+const typographyURL=new URL('../src/content/docs/legacy-guides/utilities/typography.md',import.meta.url);
+const typographySource=readFileSync(typographyURL,'utf8').replace(/^---[\s\S]*?\n---\n/,'');
+const typography=await renderer.render(typographySource,{fileURL:typographyURL});
+assert.ok(typography.code.includes('Font size 10'));
+assert.ok(!/<code[^>]*>In Markdown, use the <span/.test(typography.code), 'Rouge spans must be flattened before Expressive Code consumes the block');

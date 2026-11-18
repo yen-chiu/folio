@@ -1,0 +1,673 @@
+{
+  "method": "Normalized document title and body text; generated TOCs, assistive labels, copy buttons and regular-Markdown sizing annotations excluded. Original source SHA-256 is verified separately. This is an initial migration audit, not a restriction on future edits.",
+  "pages": [
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/404-redesign.md",
+      "slug": "building/404-redesign",
+      "sourceCharacters": 3916,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Site Navigation/Ai/AI Cutout.md",
+      "slug": "resources/ai/ai-cutout",
+      "sourceCharacters": 602,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Site Navigation/Ai/AI Drawing.md",
+      "slug": "resources/ai/ai-drawing",
+      "sourceCharacters": 1084,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Site Navigation/Ai/AI drawing prompts.md",
+      "slug": "resources/ai/ai-drawing-prompts",
+      "sourceCharacters": 1320,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "CHANGELOG.md",
+      "slug": "legacy-guides/changelog",
+      "sourceCharacters": 55209,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "MIGRATION.md",
+      "slug": "legacy-guides/migration",
+      "sourceCharacters": 14949,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Martial Arts Secrets/Nine-word mantra.md",
+      "slug": "notes/nine-word-mantra",
+      "sourceCharacters": 1137,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Martial Arts Secrets/Six-word mantra.md",
+      "slug": "notes/six-word-mantra",
+      "sourceCharacters": 501,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/about-page.md",
+      "slug": "building/astro-migration/about-page",
+      "sourceCharacters": 1765,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/ai-search-2026-11-05.md",
+      "slug": "building/ai-search-2026-11-05",
+      "sourceCharacters": 2299,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/ancestry.md",
+      "slug": "legacy-guides/navigation/main/ancestry",
+      "sourceCharacters": 1113,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/appearance-navigation.md",
+      "slug": "building/astro-migration/appearance-navigation",
+      "sourceCharacters": 2381,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/auxiliary.md",
+      "slug": "legacy-guides/navigation/auxiliary",
+      "sourceCharacters": 175,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/ui-components/buttons.md",
+      "slug": "legacy-guides/ui-components/buttons",
+      "sourceCharacters": 1190,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/ui-components/callouts.md",
+      "slug": "legacy-guides/ui-components/callouts",
+      "sourceCharacters": 1081,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/cards-background-settings.md",
+      "slug": "building/astro-migration/cards-background-settings",
+      "sourceCharacters": 1497,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/blog-guide/changelog.md",
+      "slug": "blog-guide/changelog",
+      "sourceCharacters": 543,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/chat-ambient.md",
+      "slug": "building/chat-ambient",
+      "sourceCharacters": 5299,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/chat-subsite-modules.md",
+      "slug": "building/chat-subsite-modules",
+      "sourceCharacters": 4241,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/children.md",
+      "slug": "legacy-guides/navigation/children",
+      "sourceCharacters": 164,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/chrome-qa.md",
+      "slug": "building/astro-migration/chrome-qa",
+      "sourceCharacters": 1309,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/collections.md",
+      "slug": "legacy-guides/navigation/main/collections",
+      "sourceCharacters": 1716,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/utilities/color.md",
+      "slug": "legacy-guides/utilities/color",
+      "sourceCharacters": 1667,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/blog-guide/comments.md",
+      "slug": "blog-guide/comments",
+      "sourceCharacters": 292,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/configuration.md",
+      "slug": "legacy-guides/configuration",
+      "sourceCharacters": 7775,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/customization.md",
+      "slug": "legacy-guides/customization",
+      "sourceCharacters": 9340,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/layout/minimal/default-child.md",
+      "slug": "legacy-guides/layout/minimal/default-child",
+      "sourceCharacters": 29,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/design-consistency-roadmap.md",
+      "slug": "building/astro-migration/design-consistency-roadmap",
+      "sourceCharacters": 929,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/exclude.md",
+      "slug": "legacy-guides/navigation/main/exclude",
+      "sourceCharacters": 829,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/execution.md",
+      "slug": "building/astro-migration/execution",
+      "sourceCharacters": 824,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/external.md",
+      "slug": "legacy-guides/navigation/main/external",
+      "sourceCharacters": 895,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/blog-guide/rules/front-matter.md",
+      "slug": "blog-guide/rules/front-matter",
+      "sourceCharacters": 434,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/git-history-slim.md",
+      "slug": "building/git-history-slim",
+      "sourceCharacters": 1625,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/home-archive-links.md",
+      "slug": "building/astro-migration/home-archive-links",
+      "sourceCharacters": 2366,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/blog-guide/studio/images.md",
+      "slug": "blog-guide/studio/images",
+      "sourceCharacters": 923,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/in-page.md",
+      "slug": "legacy-guides/navigation/in-page",
+      "sourceCharacters": 1736,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/index-test.md",
+      "slug": "legacy-guides/index-test",
+      "sourceCharacters": 2644,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Martial Arts Secrets/index.md",
+      "slug": "notes",
+      "sourceCharacters": 4,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/index.md",
+      "slug": "building/astro-migration",
+      "sourceCharacters": 372,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/index.md",
+      "slug": "legacy-guides",
+      "sourceCharacters": 4,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/index.md",
+      "slug": "legacy-guides/navigation/main",
+      "sourceCharacters": 1671,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/blog-guide/studio/index.md",
+      "slug": "blog-guide/studio",
+      "sourceCharacters": 217,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Site Navigation/Ai/index.md",
+      "slug": "resources/ai",
+      "sourceCharacters": 1009,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/utilities/index.md",
+      "slug": "legacy-guides/utilities",
+      "sourceCharacters": 90,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "index.md",
+      "slug": "legacy-guides/original-home",
+      "sourceCharacters": 370,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/index.md",
+      "slug": "building",
+      "sourceCharacters": 2121,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/index.md",
+      "slug": "legacy-guides/navigation",
+      "sourceCharacters": 239,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/blog-guide/index.md",
+      "slug": "blog-guide",
+      "sourceCharacters": 338,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/ui-components/code/index.md",
+      "slug": "legacy-guides/ui-components/code",
+      "sourceCharacters": 4885,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/ui-components/index.md",
+      "slug": "legacy-guides/ui-components",
+      "sourceCharacters": 70,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/blog-guide/rules/index.md",
+      "slug": "blog-guide/rules",
+      "sourceCharacters": 126,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Site Navigation/index.md",
+      "slug": "resources",
+      "sourceCharacters": 21,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/issues.md",
+      "slug": "building/astro-migration/issues",
+      "sourceCharacters": 1411,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/ui-components/labels.md",
+      "slug": "legacy-guides/ui-components/labels",
+      "sourceCharacters": 268,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/layout/layout.md",
+      "slug": "legacy-guides/layout/layout",
+      "sourceCharacters": 991,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/utilities/layout.md",
+      "slug": "legacy-guides/utilities/layout",
+      "sourceCharacters": 2062,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/levels.md",
+      "slug": "legacy-guides/navigation/main/levels",
+      "sourceCharacters": 1814,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/ui-components/code/line-numbers.md",
+      "slug": "legacy-guides/ui-components/code/line-numbers",
+      "sourceCharacters": 2766,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/ui-components/lists.md",
+      "slug": "legacy-guides/ui-components/lists",
+      "sourceCharacters": 622,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/blog-guide/studio/login.md",
+      "slug": "blog-guide/studio/login",
+      "sourceCharacters": 493,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/lunr-languages.md",
+      "slug": "building/lunr-languages",
+      "sourceCharacters": 2666,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/manual-ci-links.md",
+      "slug": "building/astro-migration/manual-ci-links",
+      "sourceCharacters": 1281,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/layout/minimal/minimal-child.md",
+      "slug": "legacy-guides/layout/minimal/minimal-child",
+      "sourceCharacters": 29,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/minimal-test.md",
+      "slug": "legacy-guides/minimal-test",
+      "sourceCharacters": 103,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/layout/minimal/minimal.md",
+      "slug": "legacy-guides/layout/minimal/minimal",
+      "sourceCharacters": 48,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/mobile-controls.md",
+      "slug": "building/astro-migration/mobile-controls",
+      "sourceCharacters": 1451,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/mobile-graph.md",
+      "slug": "building/astro-migration/mobile-graph",
+      "sourceCharacters": 644,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/mobile-ui-density.md",
+      "slug": "building/astro-migration/mobile-ui-density",
+      "sourceCharacters": 1583,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/navigation-reading-taxonomy.md",
+      "slug": "building/astro-migration/navigation-reading-taxonomy",
+      "sourceCharacters": 2220,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/order.md",
+      "slug": "legacy-guides/navigation/main/order",
+      "sourceCharacters": 1444,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/parents.md",
+      "slug": "legacy-guides/navigation/parents",
+      "sourceCharacters": 178,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/projects-portfolio.md",
+      "slug": "building/astro-migration/projects-portfolio",
+      "sourceCharacters": 1698,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/public-review.md",
+      "slug": "building/astro-migration/public-review",
+      "sourceCharacters": 1054,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/blog-guide/rules/punctuation.md",
+      "slug": "blog-guide/rules/punctuation",
+      "sourceCharacters": 450,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/utilities/responsive-modifiers.md",
+      "slug": "legacy-guides/utilities/responsive-modifiers",
+      "sourceCharacters": 231,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/search-and-home-motion.md",
+      "slug": "building/astro-migration/search-and-home-motion",
+      "sourceCharacters": 1858,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/search-path-regression.md",
+      "slug": "building/astro-migration/search-path-regression",
+      "sourceCharacters": 501,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/search.md",
+      "slug": "legacy-guides/search",
+      "sourceCharacters": 4551,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/selected-batch.md",
+      "slug": "building/astro-migration/selected-batch",
+      "sourceCharacters": 1640,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/site-icon.md",
+      "slug": "building/astro-migration/site-icon",
+      "sourceCharacters": 1653,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/blog-guide/structure.md",
+      "slug": "blog-guide/structure",
+      "sourceCharacters": 517,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/supplied-site-icon.md",
+      "slug": "building/astro-migration/supplied-site-icon",
+      "sourceCharacters": 1585,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/ui-components/tables.md",
+      "slug": "legacy-guides/ui-components/tables",
+      "sourceCharacters": 382,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/ui-components/typography.md",
+      "slug": "legacy-guides/ui-components/typography",
+      "sourceCharacters": 2030,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/utilities/typography.md",
+      "slug": "legacy-guides/utilities/typography",
+      "sourceCharacters": 1410,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Website Building Notes/astro-migration/validation.md",
+      "slug": "building/astro-migration/validation",
+      "sourceCharacters": 478,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/blog-guide/studio/write.md",
+      "slug": "blog-guide/studio/write",
+      "sourceCharacters": 439,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/x.md",
+      "slug": "legacy-guides/navigation/main/x",
+      "sourceCharacters": 17,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/xs.md",
+      "slug": "legacy-guides/navigation/main/xs",
+      "sourceCharacters": 16,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/xt.md",
+      "slug": "legacy-guides/navigation/main/xt",
+      "sourceCharacters": 30,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/xu.md",
+      "slug": "legacy-guides/navigation/main/xu",
+      "sourceCharacters": 26,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/y.md",
+      "slug": "legacy-guides/navigation/main/y",
+      "sourceCharacters": 17,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/ys.md",
+      "slug": "legacy-guides/navigation/main/ys",
+      "sourceCharacters": 16,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/yt.md",
+      "slug": "legacy-guides/navigation/main/yt",
+      "sourceCharacters": 26,
+      "coverage": 1.0
+    },
+    {
+      "missingCodeBlocks": 0,
+      "source": "docs/Usage Guidelines/navigation/main/yu.md",
+      "slug": "legacy-guides/navigation/main/yu",
+      "sourceCharacters": 26,
+      "coverage": 1.0
+    }
+  ],
+  "minimumCoverage": 1.0,
+  "belowThreshold": [],
+  "codeBlockFailures": []
+}

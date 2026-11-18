@@ -1,0 +1,124 @@
+{
+  "counts": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 14,
+    "critical": 0,
+    "total": 14
+  },
+  "advisories": [
+    {
+      "name": "@astrojs/check",
+      "severity": "high",
+      "via": [
+        "@astrojs/language-server"
+      ]
+    },
+    {
+      "name": "@astrojs/internal-helpers",
+      "severity": "high",
+      "via": [
+        "picomatch"
+      ]
+    },
+    {
+      "name": "@astrojs/language-server",
+      "severity": "high",
+      "via": [
+        "tinyglobby"
+      ]
+    },
+    {
+      "name": "@astrojs/markdown-satteri",
+      "severity": "high",
+      "via": [
+        "@astrojs/internal-helpers"
+      ]
+    },
+    {
+      "name": "@astrojs/mdx",
+      "severity": "high",
+      "via": [
+        "@astrojs/internal-helpers",
+        "@astrojs/markdown-satteri",
+        "astro"
+      ]
+    },
+    {
+      "name": "@astrojs/starlight",
+      "severity": "high",
+      "via": [
+        "@astrojs/markdown-satteri",
+        "@astrojs/mdx",
+        "astro"
+      ]
+    },
+    {
+      "name": "@astrojs/vite-plugin-astro",
+      "severity": "high",
+      "via": [
+        "@astrojs/internal-helpers",
+        "vite"
+      ]
+    },
+    {
+      "name": "anymatch",
+      "severity": "high",
+      "via": [
+        "picomatch"
+      ]
+    },
+    {
+      "name": "astro",
+      "severity": "high",
+      "via": [
+        "@astrojs/internal-helpers",
+        "@astrojs/markdown-satteri",
+        "@astrojs/vite-plugin-astro",
+        "picomatch",
+        "tinyglobby",
+        "unstorage",
+        "vite"
+      ]
+    },
+    {
+      "name": "fdir",
+      "severity": "high",
+      "via": [
+        "picomatch"
+      ]
+    },
+    {
+      "name": "picomatch",
+      "severity": "high",
+      "via": [
+        "https://github.com/advisories/GHSA-fc5q-39xc-vjpf"
+      ]
+    },
+    {
+      "name": "tinyglobby",
+      "severity": "high",
+      "via": [
+        "fdir",
+        "picomatch"
+      ]
+    },
+    {
+      "name": "unstorage",
+      "severity": "high",
+      "via": [
+        "anymatch"
+      ]
+    },
+    {
+      "name": "vite",
+      "severity": "high",
+      "via": [
+        "picomatch",
+        "tinyglobby"
+      ]
+    }
+  ],
+  "exposure": "Static Pages deployment. Node tooling only runs during trusted repository builds; visitors cannot submit glob patterns. Picomatch advisory has no patched version at validation time."
+}

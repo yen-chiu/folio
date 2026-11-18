@@ -1,0 +1,51 @@
+---
+import DefaultFooter from '@astrojs/starlight/components/Footer.astro';
+---
+<DefaultFooter />
+<script>
+  for (const code of document.querySelectorAll<HTMLElement>('.legacy-content pre > code:not(.language-mermaid)')) {
+    if(code.closest('.expressive-code'))continue;
+    const pre=code.parentElement;
+    if(!pre)continue;
+    const wrapper=document.createElement('div');wrapper.className='legacy-code';
+    pre.before(wrapper);wrapper.append(pre);
+    const button=document.createElement('button');button.type='button';button.className='legacy-copy';button.textContent='复制';button.setAttribute('aria-label','复制代码');
+    const status=document.createElement('span');status.className='sr-only';status.setAttribute('aria-live','polite');
+    wrapper.append(button,status);
+    button.addEventListener('click',async()=>{
+      try { await navigator.clipboard.writeText(code.textContent || ''); button.textContent='已复制';status.textContent='代码已复制'; }
+      catch {button.textContent='请手动复制';status.textContent='复制失败，请选择代码后手动复制';}
+      setTimeout(()=>{button.textContent='复制';},1800);
+    });
+  }
+  const archived=Array.from(document.querySelectorAll<HTMLElement>('.folio-mermaid-source'));
+  const blocks=[...archived,...Array.from(document.querySelectorAll<HTMLElement>('.sl-markdown-content pre')).filter(pre=>!pre.closest('.folio-mermaid-source')&&(pre.dataset.language==='mermaid'||pre.querySelector('code.language-mermaid')))];
+  if (blocks.length) {
+    const diagrams=blocks.map(pre=>{
+      const container=pre.closest<HTMLElement>('.expressive-code') || pre;
+      const source=pre.dataset.mermaidSource || container.querySelector<HTMLButtonElement>('button[data-code]')?.dataset.code || pre.querySelector('code')?.textContent || '';
+      return {pre,container,source,figure:document.createElement('figure')};
+    });
+    for(const diagram of diagrams) {diagram.figure.className='folio-diagram';diagram.figure.setAttribute('aria-label','流程图');diagram.container.before(diagram.figure);}
+    let generation=0;
+    const render = async () => {
+      const current=++generation;
+      const mermaid=(await import('mermaid')).default;
+      mermaid.initialize({startOnLoad:false,securityLevel:'strict',theme:document.documentElement.dataset.theme==='dark'?'dark':'default'});
+      for (let index=0;index<diagrams.length;index++) {
+        const diagram=diagrams[index];
+        try {
+          const {svg,bindFunctions}=await mermaid.render(`folio-diagram-${current}-${index}`,diagram.source);
+          if(current!==generation)return;
+          diagram.figure.innerHTML=svg; bindFunctions?.(diagram.figure);
+          diagram.container.hidden=true;
+        } catch {
+          diagram.figure.textContent='图表暂未显示，可查看下方源代码。';
+          diagram.container.hidden=false;
+        }
+      }
+    };
+    void render();
+    new MutationObserver(()=>{void render();}).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+  }
+</script>

@@ -1,0 +1,1090 @@
+{
+  "sourceRepository": "https://github.com/yen-chiu/WendellManual",
+  "sourceCommit": "e925feaa124b4e625d45da157f0755c28e8bcda1",
+  "pages": [
+    {
+      "source": "docs/Website Building Notes/404-redesign.md",
+      "legacyUrl": "/docs/Website Building Notes/404-redesign/",
+      "slug": "building/404-redesign",
+      "destination": "src/content/docs/building/404-redesign.md",
+      "mode": "markdown",
+      "sourceSha256": "67c828141aa1a6286b3a8401b899021c3f87c6f0cc52dcc1283957a9d7e414ee",
+      "initialDestinationSha256": "22a1ba34d6f916647f5bc74dba9e73e1710ff6c695ce3086767fb99c5a4def5e",
+      "title": "404 改版方案：未印的一页"
+    },
+    {
+      "source": "docs/Site Navigation/Ai/AI Cutout.md",
+      "legacyUrl": "/docs/Site Navigation/Ai/AI Cutout/",
+      "slug": "resources/ai/ai-cutout",
+      "destination": "src/content/docs/resources/ai/ai-cutout.md",
+      "mode": "markdown",
+      "sourceSha256": "6ca89ba88cd68b8a62c29169a6f6e1036f4c8d2539e00d0cd15f67886b6da4a8",
+      "initialDestinationSha256": "f608a9a095f7a4fe44a24336f86302d375c11298e7776725d3c6fa189cfa2bf0",
+      "title": "AI抠图"
+    },
+    {
+      "source": "docs/Site Navigation/Ai/AI Drawing.md",
+      "legacyUrl": "/docs/Site Navigation/Ai/AI Drawing/",
+      "slug": "resources/ai/ai-drawing",
+      "destination": "src/content/docs/resources/ai/ai-drawing.md",
+      "mode": "markdown",
+      "sourceSha256": "527927444de252c278b50c465294795afeba773103dd592df40c686de2f74332",
+      "initialDestinationSha256": "dcdf913d37650c7ca9a39717d74414750dbb0257d49a6803d9792c2356a8ae34",
+      "title": "AI绘图"
+    },
+    {
+      "source": "docs/Site Navigation/Ai/AI drawing prompts.md",
+      "legacyUrl": "/docs/Site Navigation/Ai/AI drawing prompts/",
+      "slug": "resources/ai/ai-drawing-prompts",
+      "destination": "src/content/docs/resources/ai/ai-drawing-prompts.md",
+      "mode": "markdown",
+      "sourceSha256": "4acc19ba6510c2ad817bb5d653c94a5e4f08ccc132e6f58d15840a8ff828f03a",
+      "initialDestinationSha256": "f3d4b4c5f3279712b29dde65e62408e6e0cb6fefa1b58ef6330f419189b7ee52",
+      "title": "AI绘图提示词"
+    },
+    {
+      "source": "CHANGELOG.md",
+      "legacyUrl": "/CHANGELOG/",
+      "slug": "legacy-guides/changelog",
+      "destination": "src/content/docs/legacy-guides/changelog.md",
+      "mode": "archived-html",
+      "sourceSha256": "7bc41f894de8e946c846532efda351eeb1c97d4458a413610208cb2e9e5c1e92",
+      "initialDestinationSha256": "3f417834695fedd3724c3fa4e42321c88c53986eb897106e1deb6ea5523c969e",
+      "title": "变更日志"
+    },
+    {
+      "source": "MIGRATION.md",
+      "legacyUrl": "/MIGRATION/",
+      "slug": "legacy-guides/migration",
+      "destination": "src/content/docs/legacy-guides/migration.md",
+      "mode": "archived-html",
+      "sourceSha256": "7bc8bceccf8fb90356d69b8f1722e9762f6350db0234785ce6266bca2a0cc318",
+      "initialDestinationSha256": "5a5f7def4db4eeae0f4eef6e208f6b6ecb5f3e4bb3fc2ebc4f4d0d46b2101a82",
+      "title": "迁移和升级"
+    },
+    {
+      "source": "docs/Martial Arts Secrets/Nine-word mantra.md",
+      "legacyUrl": "/docs/Martial Arts Secrets/Nine-word mantra/",
+      "slug": "notes/nine-word-mantra",
+      "destination": "src/content/docs/notes/nine-word-mantra.md",
+      "mode": "markdown",
+      "sourceSha256": "522aaaea0e4798e7649389a9f2949b81ea22400150ec3443b73ddf11a828b0e0",
+      "initialDestinationSha256": "2c406358e416e4481cd700ce1393aa385aedd8924ede7b40e0e16bf83ff3d382",
+      "title": "九字真言"
+    },
+    {
+      "source": "docs/Martial Arts Secrets/Six-word mantra.md",
+      "legacyUrl": "/docs/Martial Arts Secrets/Six-word mantra/",
+      "slug": "notes/six-word-mantra",
+      "destination": "src/content/docs/notes/six-word-mantra.md",
+      "mode": "markdown",
+      "sourceSha256": "af95bc6447c6fb92d34f216590dbc2f994bb54d68fe0d7130f2fe4df066cac81",
+      "initialDestinationSha256": "71bf33ad5929df00ecbab2f3694b2a2d9d5b824d471df80c4501334bf31a9749",
+      "title": "六字真言"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/about-page.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/about-page/",
+      "slug": "building/astro-migration/about-page",
+      "destination": "src/content/docs/building/astro-migration/about-page.md",
+      "mode": "markdown",
+      "sourceSha256": "4a328bb0230519936ded0d1a8ba6d47a06abc5677b1fa808c509cb4145b77b83",
+      "initialDestinationSha256": "b0f1ed67d754b3a5a08a6acdc87ac305e9e36124a1a10b58b6eba2371f538da1",
+      "title": "关于页完整移植与排版优化"
+    },
+    {
+      "source": "docs/Website Building Notes/ai-search-2026-11-05.md",
+      "legacyUrl": "/docs/Website Building Notes/ai-search-2026-11-05/",
+      "slug": "building/ai-search-2026-11-05",
+      "destination": "src/content/docs/building/ai-search-2026-11-05.md",
+      "mode": "markdown",
+      "sourceSha256": "944b36a413d889ca2198ea2b296ddb8a06c1beb4c512998489102d68365eb6e3",
+      "initialDestinationSha256": "797c0ad2607a15e14866c6477ca67682a29e3d335e73ba5525f78b97367d7bc2",
+      "title": "念真联网 2026-11-05 版本更新：Bing、缓存与失败冷却"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/ancestry.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/ancestry/",
+      "slug": "legacy-guides/navigation/main/ancestry",
+      "destination": "src/content/docs/legacy-guides/navigation/main/ancestry.md",
+      "mode": "archived-html",
+      "sourceSha256": "d961bcf6b6dd537c3656c3d05d9e8a6345888d6562eb1f88107b14b70613a89d",
+      "initialDestinationSha256": "56318695b263af85da31b6054360aee420ed05f8a89dff64cd68b903bb35a5ad",
+      "title": "祖先"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/appearance-navigation.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/appearance-navigation/",
+      "slug": "building/astro-migration/appearance-navigation",
+      "destination": "src/content/docs/building/astro-migration/appearance-navigation.md",
+      "mode": "markdown",
+      "sourceSha256": "bba24e8c11a098cb4914dc3932daecd7517aad1f468fe82657a9eb732cf3f6cd",
+      "initialDestinationSha256": "049554ebe4ccce2a0dc15bad23f88d2cdeeefe38b3ac96d8080df7994e641094",
+      "title": "玻璃导航、外观面板与手机交互修复"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/auxiliary.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/auxiliary/",
+      "slug": "legacy-guides/navigation/auxiliary",
+      "destination": "src/content/docs/legacy-guides/navigation/auxiliary.md",
+      "mode": "archived-html",
+      "sourceSha256": "20466314edaa4f0a88631401f3eb93b3577fa69c97716a49acb2b3678dd83d41",
+      "initialDestinationSha256": "5ba98ff66de74bb13c8a8920806f672196d1e27c8a891a10e9a5d0ef074b4925",
+      "title": "辅助链接"
+    },
+    {
+      "source": "docs/Usage Guidelines/ui-components/buttons.md",
+      "legacyUrl": "/docs/Usage Guidelines/ui-components/buttons/",
+      "slug": "legacy-guides/ui-components/buttons",
+      "destination": "src/content/docs/legacy-guides/ui-components/buttons.md",
+      "mode": "archived-html",
+      "sourceSha256": "4ef18b8c61a6767941e1e20dc1edb6a39929775b8c7281baae048f09dcc47ecd",
+      "initialDestinationSha256": "1279c1154eeb51935703173e983ddfd0b5d2043e88c20c7fa9b0405611899d9f",
+      "title": "按钮"
+    },
+    {
+      "source": "docs/Usage Guidelines/ui-components/callouts.md",
+      "legacyUrl": "/docs/Usage Guidelines/ui-components/callouts/",
+      "slug": "legacy-guides/ui-components/callouts",
+      "destination": "src/content/docs/legacy-guides/ui-components/callouts.md",
+      "mode": "archived-html",
+      "sourceSha256": "9a6964089e83156273a1459e8b63124d587ad2e454f5c1e538139a84030e8691",
+      "initialDestinationSha256": "9c99c995bd8aaf22ba6050530ef58217abbd77d3a9e2afd4772c709dbf6feac6",
+      "title": "标注"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/cards-background-settings.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/cards-background-settings/",
+      "slug": "building/astro-migration/cards-background-settings",
+      "destination": "src/content/docs/building/astro-migration/cards-background-settings.md",
+      "mode": "markdown",
+      "sourceSha256": "b34b6cf904a967a331f63972d9227ff00077daa9ee14bbdc96e4b47f7dd7a40a",
+      "initialDestinationSha256": "b703778ce7a6d82bab1af086ffb5503539a9cc205e54f7cae31dc836b49c4fb8",
+      "title": "文章卡片底栏与背景设置分离"
+    },
+    {
+      "source": "docs/blog-guide/changelog.md",
+      "legacyUrl": "/docs/blog-guide/changelog/",
+      "slug": "blog-guide/changelog",
+      "destination": "src/content/docs/blog-guide/changelog.md",
+      "mode": "markdown",
+      "sourceSha256": "4dd3c44846ae21772c98b1ebf5a07a282ecd09c25e32fc89bc049c5b276da651",
+      "initialDestinationSha256": "bd59f73123c830bf15e0f50858272281f397aac097f1b18dbe1e8bedc5765b6f",
+      "title": "更新日志"
+    },
+    {
+      "source": "docs/Website Building Notes/chat-ambient.md",
+      "legacyUrl": "/docs/Website Building Notes/chat-ambient/",
+      "slug": "building/chat-ambient",
+      "destination": "src/content/docs/building/chat-ambient.md",
+      "mode": "markdown",
+      "sourceSha256": "e5a903daff6a310a10888ca850dbb9187f8eecc6775983e9ea9607cc948d0610",
+      "initialDestinationSha256": "e999ac3b0f3ef41b93dce4b4a2c04f2964cb71f58050062252fa1ddb2c0dd582",
+      "title": "聊天页背景与落款：把「单调」改成「深夜的房间」"
+    },
+    {
+      "source": "docs/Website Building Notes/chat-subsite-modules.md",
+      "legacyUrl": "/docs/Website Building Notes/chat-subsite-modules/",
+      "slug": "building/chat-subsite-modules",
+      "destination": "src/content/docs/building/chat-subsite-modules.md",
+      "mode": "markdown",
+      "sourceSha256": "5e75af969c0036335c8a60ce6b27b0012b272581981ce51e0880fc0461834739",
+      "initialDestinationSha256": "3aca72979acdbf28061346c160ccc09b845ebeeb34b669bd7f88af4f4266f972",
+      "title": "聊天子站的三模块改造"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/children.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/children/",
+      "slug": "legacy-guides/navigation/children",
+      "destination": "src/content/docs/legacy-guides/navigation/children.md",
+      "mode": "archived-html",
+      "sourceSha256": "4e33c3668af2a9110fc51298b3083de608cc84674565686252e5cd9a9ae725d8",
+      "initialDestinationSha256": "01d8890c2ad263faa1a519ebdedb006bfbf44d5f68c95c32b27620a15201188c",
+      "title": "子页面"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/chrome-qa.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/chrome-qa/",
+      "slug": "building/astro-migration/chrome-qa",
+      "destination": "src/content/docs/building/astro-migration/chrome-qa.md",
+      "mode": "markdown",
+      "sourceSha256": "7c2a26ee8fe58e135da60d5bc9f49370b0b75b7644f1889548042b08fdb9e756",
+      "initialDestinationSha256": "d6220ab4d741a0d58552c8fee3a9bab73c41cb2abb9db991dbb51753e9b828fd",
+      "title": "Chrome 真实交互验收"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/collections.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/collections/",
+      "slug": "legacy-guides/navigation/main/collections",
+      "destination": "src/content/docs/legacy-guides/navigation/main/collections.md",
+      "mode": "archived-html",
+      "sourceSha256": "84e3932abea3b87c2848f41c56b50ace0cfe7c053f891793c8c973514182d43d",
+      "initialDestinationSha256": "fe1f7384677a9365454b84813630317ec023c6e969b4b6158cdb0235c1af0904",
+      "title": "收藏"
+    },
+    {
+      "source": "docs/Usage Guidelines/utilities/color.md",
+      "legacyUrl": "/docs/Usage Guidelines/utilities/color/",
+      "slug": "legacy-guides/utilities/color",
+      "destination": "src/content/docs/legacy-guides/utilities/color.md",
+      "mode": "archived-html",
+      "sourceSha256": "0f3e8ccc0e2f8ebecee58cf552b8596b47e7e7e7e7aa7df78f88d0e0bf8ee2f6",
+      "initialDestinationSha256": "90ddced43f10a76ddb504dd9b4257616d48ca13c48f56cfa9ebac3f41497871b",
+      "title": "Color"
+    },
+    {
+      "source": "docs/blog-guide/comments.md",
+      "legacyUrl": "/docs/blog-guide/comments/",
+      "slug": "blog-guide/comments",
+      "destination": "src/content/docs/blog-guide/comments.md",
+      "mode": "markdown",
+      "sourceSha256": "b948afb02f6a8c21a35b37093736f8014b04585152aedaa7d31192241dd259df",
+      "initialDestinationSha256": "32c296a1667ff99825a032ab12e3cabcf4fe18b3cf9232a4c4185f1056e66d69",
+      "title": "评论"
+    },
+    {
+      "source": "docs/Usage Guidelines/configuration.md",
+      "legacyUrl": "/docs/Usage Guidelines/configuration/",
+      "slug": "legacy-guides/configuration",
+      "destination": "src/content/docs/legacy-guides/configuration.md",
+      "mode": "archived-html",
+      "sourceSha256": "b918b05037f816ac01a34bb6aad75dcdca0e3702182f66e755ee48f0b55c0ef3",
+      "initialDestinationSha256": "335fdffdec3f4bfcc02c5ee73db3a0193aff3a1621b5e16861eb765ea446ddef",
+      "title": "配置"
+    },
+    {
+      "source": "docs/Usage Guidelines/customization.md",
+      "legacyUrl": "/docs/Usage Guidelines/customization/",
+      "slug": "legacy-guides/customization",
+      "destination": "src/content/docs/legacy-guides/customization.md",
+      "mode": "archived-html",
+      "sourceSha256": "49081c78566b66cacab0dd535ca8d8dde7fe27749407bb16b43bb215574e55c8",
+      "initialDestinationSha256": "ce69ee554da397080a33c51d881288ff0014635286e8990b0b226e9b222e3b75",
+      "title": "定制"
+    },
+    {
+      "source": "docs/Usage Guidelines/layout/minimal/default-child.md",
+      "legacyUrl": "/docs/Usage Guidelines/layout/minimal/default-child/",
+      "slug": "legacy-guides/layout/minimal/default-child",
+      "destination": "src/content/docs/legacy-guides/layout/minimal/default-child.md",
+      "mode": "archived-html",
+      "sourceSha256": "8a4e2fceb72fcf4313be348d90a4d5afa038638c8b1ab9161c603a382ef65741",
+      "initialDestinationSha256": "8d1fe709743c877053144cc06c6006f84e87af6f0ae5e6882779cb20428e955b",
+      "title": "默认布局子页面"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/design-consistency-roadmap.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/design-consistency-roadmap/",
+      "slug": "building/astro-migration/design-consistency-roadmap",
+      "destination": "src/content/docs/building/astro-migration/design-consistency-roadmap.md",
+      "mode": "markdown",
+      "sourceSha256": "3f62a0dce189ca68791b55c0c68faa88e9293e24a354d3bfee7b73cbe9c55729",
+      "initialDestinationSha256": "84e6300a90f70231429f7eec1baf7f712bd0d9c4743c972337d3e4f3b8cc342e",
+      "title": "后续整改：整站设计与交互统一验收"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/exclude.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/exclude/",
+      "slug": "legacy-guides/navigation/main/exclude",
+      "destination": "src/content/docs/legacy-guides/navigation/main/exclude.md",
+      "mode": "archived-html",
+      "sourceSha256": "133469e145c564982d3a648838121e83f4e9ba960e8c4893955ffec3d9e747fa",
+      "initialDestinationSha256": "30bb98c17b6fe93460b51f3f5729d1e08501d4f844593aed70642bb577bbc867",
+      "title": "排除页面"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/execution.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/execution/",
+      "slug": "building/astro-migration/execution",
+      "destination": "src/content/docs/building/astro-migration/execution.md",
+      "mode": "markdown",
+      "sourceSha256": "abae70b7e9b7ca331487dd2fc6e312eb05f857da8ed03be80f9f47a2dfe5e8cf",
+      "initialDestinationSha256": "6120186dd93d17e43ef5fb51c7bb2b6eded588fbb4da23a28bfcbdee6ab50e9b",
+      "title": "执行与备份"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/external.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/external/",
+      "slug": "legacy-guides/navigation/main/external",
+      "destination": "src/content/docs/legacy-guides/navigation/main/external.md",
+      "mode": "archived-html",
+      "sourceSha256": "c1d11871c50ac62b91bc7983fb1643716b6d32aceda5fbf27348f929aaaa0e31",
+      "initialDestinationSha256": "44b9cf7cc8313bc9119302e7aad2791e8624d8777e6737ebbe018753181da86c",
+      "title": "外部链接"
+    },
+    {
+      "source": "docs/blog-guide/rules/front-matter.md",
+      "legacyUrl": "/docs/blog-guide/rules/front-matter/",
+      "slug": "blog-guide/rules/front-matter",
+      "destination": "src/content/docs/blog-guide/rules/front-matter.md",
+      "mode": "markdown",
+      "sourceSha256": "38188376993f314b59ebffe182a31436b23b6ad18a1ba931d536f091876d2cac",
+      "initialDestinationSha256": "4d4a05b082eb92b8b6ac351cb77a89b74bc2ee5ee52c6e7da53e90a67e8f99c1",
+      "title": "Front Matter 字段"
+    },
+    {
+      "source": "docs/Website Building Notes/git-history-slim.md",
+      "legacyUrl": "/docs/Website Building Notes/git-history-slim/",
+      "slug": "building/git-history-slim",
+      "destination": "src/content/docs/building/git-history-slim.md",
+      "mode": "markdown",
+      "sourceSha256": "8620dccea5e14762ca48cb6b331387b58c56d6683a05447e78df114692286994",
+      "initialDestinationSha256": "ef9c18a21b427fec4cb7060ac2c95568ad6614f9b992454ea774d9c161143196",
+      "title": "把 Git 历史瘦下来"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/home-archive-links.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/home-archive-links/",
+      "slug": "building/astro-migration/home-archive-links",
+      "destination": "src/content/docs/building/astro-migration/home-archive-links.md",
+      "mode": "markdown",
+      "sourceSha256": "f4f32011dabdd338aa2ed050478443f784d99acdc83d1869ae1d2d3cf2954ef1",
+      "initialDestinationSha256": "3c98a572c35f8fa1ca5f8a34437561d608db4a56bdefca36834d9c646ef35ea2",
+      "title": "全屏首页、文章日历与链接页"
+    },
+    {
+      "source": "docs/blog-guide/studio/images.md",
+      "legacyUrl": "/docs/blog-guide/studio/images/",
+      "slug": "blog-guide/studio/images",
+      "destination": "src/content/docs/blog-guide/studio/images.md",
+      "mode": "markdown",
+      "sourceSha256": "f6cbf5c0714cd28dbaec3aed44f1ebcb0704c55c24fd3d0dad0ccbd7fea73489",
+      "initialDestinationSha256": "a45c9dbaee83d660d104c84d24cc5b80a3643247260b238cf1193b4e84ebec4d",
+      "title": "图片与附件"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/in-page.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/in-page/",
+      "slug": "legacy-guides/navigation/in-page",
+      "destination": "src/content/docs/legacy-guides/navigation/in-page.md",
+      "mode": "archived-html",
+      "sourceSha256": "7e82d13e670fb1dd0a7236b2cb51bff1cbcdeb95b73c92041a82653513b19b17",
+      "initialDestinationSha256": "331eb4145e8dc875ec93c59b68458e65f479796c897114f0f504be6cde158bff",
+      "title": "页内导航"
+    },
+    {
+      "source": "docs/Usage Guidelines/index-test.md",
+      "legacyUrl": "/docs/Usage Guidelines/index-test/",
+      "slug": "legacy-guides/index-test",
+      "destination": "src/content/docs/legacy-guides/index-test.md",
+      "mode": "archived-html",
+      "sourceSha256": "9b8e14234cd4315789b85dbe9d8b4093479f67374f804cacce30967909170ba5",
+      "initialDestinationSha256": "c59152dab9bf279c45599e041224e381b69d666aa1080a699cf740e7505bbdfb",
+      "title": "Markdown 示例大全"
+    },
+    {
+      "source": "docs/Martial Arts Secrets/index.md",
+      "legacyUrl": "/docs/Martial Arts Secrets/",
+      "slug": "notes",
+      "destination": "src/content/docs/notes.md",
+      "mode": "markdown",
+      "sourceSha256": "c99232d2a1de260346af60537f44e839be8cd62d1136181306099ffa8e4b3de3",
+      "initialDestinationSha256": "5db7a784e0c94928052d24402b181cfeab06bc1f284b2ff611f6fbefaf6e293c",
+      "title": "武林秘籍"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/index.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/",
+      "slug": "building/astro-migration",
+      "destination": "src/content/docs/building/astro-migration.md",
+      "mode": "markdown",
+      "sourceSha256": "3a2949af68cd6883839778c9546086e84c64bdfd0763ebd631c038827a47e802",
+      "initialDestinationSha256": "3420308edcde6536d22e211b2f07e9a003425c34e8623cac43e035ed24b555c3",
+      "title": "Astro 迁移记录"
+    },
+    {
+      "source": "docs/Usage Guidelines/index.md",
+      "legacyUrl": "/docs/Usage Guidelines/",
+      "slug": "legacy-guides",
+      "destination": "src/content/docs/legacy-guides.md",
+      "mode": "archived-html",
+      "sourceSha256": "4e8afb1a952a1eaa32f401c70e90a7c98add2cccef3527c1acef265b69c669df",
+      "initialDestinationSha256": "4e1ae0c480f094acacd69ce6c5420271a7439ee084b3b8cad77d38e255bc7273",
+      "title": "使用指南"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/index.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/",
+      "slug": "legacy-guides/navigation/main",
+      "destination": "src/content/docs/legacy-guides/navigation/main.md",
+      "mode": "archived-html",
+      "sourceSha256": "f84ca18d72731be897aee4abdbcee970be3d5220cdc4ef9e77c657264da19a84",
+      "initialDestinationSha256": "fc11ea5aaa22a6039814e5b3f79683ce3081219aa2ed0d83d0f32465fe6d63d1",
+      "title": "主导航"
+    },
+    {
+      "source": "docs/blog-guide/studio/index.md",
+      "legacyUrl": "/docs/blog-guide/studio/",
+      "slug": "blog-guide/studio",
+      "destination": "src/content/docs/blog-guide/studio.md",
+      "mode": "markdown",
+      "sourceSha256": "6586c0d85a9bdd05e69be48aa7d1f7716748c43a4be443ee5c9f4c48f30b5ede",
+      "initialDestinationSha256": "a8ca6f50c535657d56091008e454abfc1fd777ddb41c9b1692c6b70eedc76415",
+      "title": "写作台"
+    },
+    {
+      "source": "docs/Site Navigation/Ai/index.md",
+      "legacyUrl": "/docs/Site Navigation/Ai/",
+      "slug": "resources/ai",
+      "destination": "src/content/docs/resources/ai.md",
+      "mode": "markdown",
+      "sourceSha256": "8bf188e5cd485a8cb93cb1dda1f6dfd99ac20133c21d3dd46542d1a9422b71ee",
+      "initialDestinationSha256": "3ce6bb9fe21b51d6dceb50b17ffcd4ac9c28dc069603dae42fc3ade052acdec7",
+      "title": "Ai"
+    },
+    {
+      "source": "docs/Usage Guidelines/utilities/index.md",
+      "legacyUrl": "/docs/Usage Guidelines/utilities/",
+      "slug": "legacy-guides/utilities",
+      "destination": "src/content/docs/legacy-guides/utilities.md",
+      "mode": "archived-html",
+      "sourceSha256": "59fd7a843d30e1472c023ed6ca7f0b714fb607fde096919f5ed2be3b10277f51",
+      "initialDestinationSha256": "c094e9e80a3cf7de8d62184d6d9c5a36f9028eb9e7016d326fb4d176857d22bb",
+      "title": "实用工具"
+    },
+    {
+      "source": "index.md",
+      "legacyUrl": "/",
+      "slug": "legacy-guides/original-home",
+      "destination": "src/content/docs/legacy-guides/original-home.md",
+      "mode": "archived-html",
+      "sourceSha256": "688b0b30e37d3ec3b7d1506f372238795b1e4572b82fbbeb4d102f977f156319",
+      "initialDestinationSha256": "59db1855f9f9c9925ca60daa51ecf3d20d305ff363fcae4117ff3cee281d089d",
+      "title": "首页"
+    },
+    {
+      "source": "docs/Website Building Notes/index.md",
+      "legacyUrl": "/docs/Website Building Notes/",
+      "slug": "building",
+      "destination": "src/content/docs/building.md",
+      "mode": "markdown",
+      "sourceSha256": "b873555a01c4d3d5a8777e099a7602417f38615d373b1914bcc800c8fa4345ee",
+      "initialDestinationSha256": "12230eae0c1df3a8415ac2c0f5ec7abbcf3ee8b695dd104b046ce6984ec84b5b",
+      "title": "建站笔记"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/index.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/",
+      "slug": "legacy-guides/navigation",
+      "destination": "src/content/docs/legacy-guides/navigation.md",
+      "mode": "archived-html",
+      "sourceSha256": "a5f92cb9c2d961af688f197d9c34a878f06eff46cafc19eedd151c6a1cda2150",
+      "initialDestinationSha256": "ec1a3493ed58dc3e62524497371207e808f7fc20b83f113481f5e9d863595764",
+      "title": "导航"
+    },
+    {
+      "source": "docs/blog-guide/index.md",
+      "legacyUrl": "/docs/blog-guide/",
+      "slug": "blog-guide",
+      "destination": "src/content/docs/blog-guide.md",
+      "mode": "markdown",
+      "sourceSha256": "5babf0431df40459d611fc047acd2b004cdbfd1938fab5aeeb8ed7edc42b5e0e",
+      "initialDestinationSha256": "9d5a2fdc1d12ae31bcf29d5ed82b8f6950c69adedbe80b1bafb109c28b7d0695",
+      "title": "博客使用说明"
+    },
+    {
+      "source": "docs/Usage Guidelines/ui-components/code/index.md",
+      "legacyUrl": "/docs/Usage Guidelines/ui-components/code/",
+      "slug": "legacy-guides/ui-components/code",
+      "destination": "src/content/docs/legacy-guides/ui-components/code.md",
+      "mode": "archived-html",
+      "sourceSha256": "5afa9d9d4309a3e6d3271c25dc70a335875af7ace54269914316e3c425bf1571",
+      "initialDestinationSha256": "0ded9a2af6b39f2baee98c7d4a2309a349b0ba56b21806b770ffdf7d5a4b7202",
+      "title": "代码"
+    },
+    {
+      "source": "docs/Usage Guidelines/ui-components/index.md",
+      "legacyUrl": "/docs/Usage Guidelines/ui-components/",
+      "slug": "legacy-guides/ui-components",
+      "destination": "src/content/docs/legacy-guides/ui-components.md",
+      "mode": "archived-html",
+      "sourceSha256": "d095dfcf404f8642aaffcdd6307a90740cd1354dedd811a1a2d4b2d6ae080992",
+      "initialDestinationSha256": "12f325eaab1ee816df2a65ffdc0947d53a96f44741c033bd155c73f6bc57108c",
+      "title": "UI 组件"
+    },
+    {
+      "source": "docs/blog-guide/rules/index.md",
+      "legacyUrl": "/docs/blog-guide/rules/",
+      "slug": "blog-guide/rules",
+      "destination": "src/content/docs/blog-guide/rules.md",
+      "mode": "markdown",
+      "sourceSha256": "444ccc63025fdf22b0190c577d8d0667ed233ca2deb1a1522d3c6b5d7131f1b4",
+      "initialDestinationSha256": "a3961eed4a12f4e5add0ff5b48584739e70400fa96d81b3f45ae1d5982d523eb",
+      "title": "文章规范"
+    },
+    {
+      "source": "docs/Site Navigation/index.md",
+      "legacyUrl": "/docs/Site Navigation/",
+      "slug": "resources",
+      "destination": "src/content/docs/resources.md",
+      "mode": "markdown",
+      "sourceSha256": "ed1a1d933c5da1a9c4f181bcac5ed2e3d21e3bbf6d2370d9efa0a6ae9ea04d95",
+      "initialDestinationSha256": "8175ea9e8ce554f938f1e9f05a1f1c381ded07060cfb055aa39cc4d2ec387439",
+      "title": "网站导航"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/issues.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/issues/",
+      "slug": "building/astro-migration/issues",
+      "destination": "src/content/docs/building/astro-migration/issues.md",
+      "mode": "markdown",
+      "sourceSha256": "8260d20db9864064a9aedb3f26ef548fe3eff7310a17ba6f3604f97d8709bd76",
+      "initialDestinationSha256": "956eac6c7ffc2b5320ea4dabefb6f5042708f7d31e6be302ed22feb4ada473ed",
+      "title": "待处理问题"
+    },
+    {
+      "source": "docs/Usage Guidelines/ui-components/labels.md",
+      "legacyUrl": "/docs/Usage Guidelines/ui-components/labels/",
+      "slug": "legacy-guides/ui-components/labels",
+      "destination": "src/content/docs/legacy-guides/ui-components/labels.md",
+      "mode": "archived-html",
+      "sourceSha256": "93268ac3a9eea897e3b20aae13a740e4653a12729235fb4f0c3dc88e81df55de",
+      "initialDestinationSha256": "aa5b87a90585251edcbb234dabc4d0701704f456267eb83c1fc94e44a9f12d2c",
+      "title": "标签"
+    },
+    {
+      "source": "docs/Usage Guidelines/layout/layout.md",
+      "legacyUrl": "/docs/Usage Guidelines/layout/layout/",
+      "slug": "legacy-guides/layout/layout",
+      "destination": "src/content/docs/legacy-guides/layout/layout.md",
+      "mode": "archived-html",
+      "sourceSha256": "a13a3537dcb1aafb2c0b39b3b09ab3dbdb00a23030ceaad145adf197a1007bc8",
+      "initialDestinationSha256": "b6a1815c8cc370559f185e7b5d0dedc757ccc08c7c81e09a2378d7f57bbccf90",
+      "title": "布局"
+    },
+    {
+      "source": "docs/Usage Guidelines/utilities/layout.md",
+      "legacyUrl": "/docs/Usage Guidelines/utilities/layout/",
+      "slug": "legacy-guides/utilities/layout",
+      "destination": "src/content/docs/legacy-guides/utilities/layout.md",
+      "mode": "archived-html",
+      "sourceSha256": "b7b2aeb7e4c42a40ccd014e2baba08db900c212508aa6d66d0f374b9da6da7ed",
+      "initialDestinationSha256": "d84cfc71d1f7fab23b6cb6f4b7c0a20bb6eb20c81cbaaf0abfcdefa1cfb04201",
+      "title": "布局"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/levels.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/levels/",
+      "slug": "legacy-guides/navigation/main/levels",
+      "destination": "src/content/docs/legacy-guides/navigation/main/levels.md",
+      "mode": "archived-html",
+      "sourceSha256": "d1e18e919fc6839781c73d19eba6cd59401c9e3713bbf5453fd97fdb98ec003f",
+      "initialDestinationSha256": "8f52e4e637e91136f35cd44441c837b7410b4e3e1d6baffa808c1299c6365c3a",
+      "title": "页面级别"
+    },
+    {
+      "source": "docs/Usage Guidelines/ui-components/code/line-numbers.md",
+      "legacyUrl": "/docs/Usage Guidelines/ui-components/code/line-numbers/",
+      "slug": "legacy-guides/ui-components/code/line-numbers",
+      "destination": "src/content/docs/legacy-guides/ui-components/code/line-numbers.md",
+      "mode": "archived-html",
+      "sourceSha256": "c9c50f8862c888b56b29afefae739e77348374b2177b94aea8990a51572e570b",
+      "initialDestinationSha256": "f994b687210c4126d2f50e57a3b1e64c5e576c5223725fe26585bb1235f2c12e",
+      "title": "行号"
+    },
+    {
+      "source": "docs/Usage Guidelines/ui-components/lists.md",
+      "legacyUrl": "/docs/Usage Guidelines/ui-components/lists/",
+      "slug": "legacy-guides/ui-components/lists",
+      "destination": "src/content/docs/legacy-guides/ui-components/lists.md",
+      "mode": "archived-html",
+      "sourceSha256": "dbca67fb52c35f81d67bea7c1d954851137f7c26491faa582109fbd0cef98a61",
+      "initialDestinationSha256": "ffe3b45016bc5b915135629095ff0d32365e63f9ae7a659c5150a16aa608e069",
+      "title": "列表"
+    },
+    {
+      "source": "docs/blog-guide/studio/login.md",
+      "legacyUrl": "/docs/blog-guide/studio/login/",
+      "slug": "blog-guide/studio/login",
+      "destination": "src/content/docs/blog-guide/studio/login.md",
+      "mode": "markdown",
+      "sourceSha256": "96a623668b1d9a71eae1c608c6a20418818a96970720d932136d0257aa240a64",
+      "initialDestinationSha256": "811674078921afe004e93d92b69475a35c79503360678608eb86318ed046c0bd",
+      "title": "登录与授权"
+    },
+    {
+      "source": "docs/Website Building Notes/lunr-languages.md",
+      "legacyUrl": "/docs/Website Building Notes/lunr-languages/",
+      "slug": "building/lunr-languages",
+      "destination": "src/content/docs/building/lunr-languages.md",
+      "mode": "markdown",
+      "sourceSha256": "e0b75730896e3fddb1c0d37a3b3db25f6c5fb1bbf3d8903e6b99f6933ca71732",
+      "initialDestinationSha256": "26017892ee8d37c3b329d5c06625274b037fe7014de4f2b0c78d57b235eb181b",
+      "title": "lunr-languages"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/manual-ci-links.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/manual-ci-links/",
+      "slug": "building/astro-migration/manual-ci-links",
+      "destination": "src/content/docs/building/astro-migration/manual-ci-links.md",
+      "mode": "markdown",
+      "sourceSha256": "b8c924620c91df4728523cff94441d4216b54fccd7ffaf7136498f9721bff929",
+      "initialDestinationSha256": "a66e92fdb2056ed31d23b261f01e390ffb6bea84f9a77c8c6b11e0657e3251e4",
+      "title": "文档站红叉与站内链接修复"
+    },
+    {
+      "source": "docs/Usage Guidelines/layout/minimal/minimal-child.md",
+      "legacyUrl": "/docs/Usage Guidelines/layout/minimal/minimal-child/",
+      "slug": "legacy-guides/layout/minimal/minimal-child",
+      "destination": "src/content/docs/legacy-guides/layout/minimal/minimal-child.md",
+      "mode": "archived-html",
+      "sourceSha256": "5e7e1e7f40645cb7470dd0f892e80ba3f424ffe1e4bc870203bf93390214ca15",
+      "initialDestinationSha256": "3abfd3441d50246d6d021d9f3f82a12c72b801b20d791e6935b175cb6c3382f8",
+      "title": "最小布局子页面"
+    },
+    {
+      "source": "docs/Usage Guidelines/minimal-test.md",
+      "legacyUrl": "/docs/Usage Guidelines/minimal-test/",
+      "slug": "legacy-guides/minimal-test",
+      "destination": "src/content/docs/legacy-guides/minimal-test.md",
+      "mode": "archived-html",
+      "sourceSha256": "1fdac44263967f6febcc525712d773ff96f051d9b87848d2741444d3c5c6fc4a",
+      "initialDestinationSha256": "120a8555700c7a420a169e7edf0998fe9fef36d670038af0648aefb38d5207ef",
+      "title": "最小布局测试"
+    },
+    {
+      "source": "docs/Usage Guidelines/layout/minimal/minimal.md",
+      "legacyUrl": "/docs/Usage Guidelines/layout/minimal/minimal/",
+      "slug": "legacy-guides/layout/minimal/minimal",
+      "destination": "src/content/docs/legacy-guides/layout/minimal/minimal.md",
+      "mode": "archived-html",
+      "sourceSha256": "383571ec6a874f35415fad2ed4a8691f6b1214033415fb96e51fb63656a4e0ce",
+      "initialDestinationSha256": "c60713e4195b99e6398c6eb2b87b50a7c27ea73e26f70296bb3ddfb111c23fad",
+      "title": "最小布局页面"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/mobile-controls.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/mobile-controls/",
+      "slug": "building/astro-migration/mobile-controls",
+      "destination": "src/content/docs/building/astro-migration/mobile-controls.md",
+      "mode": "markdown",
+      "sourceSha256": "e0127e789faf0b2ed7bd4129af3c418a1592d86ef7f7387790ded068e8c414a1",
+      "initialDestinationSha256": "061d666d8d943c5950349145905245fde6837f44446ad3ae17bda5868adf63e6",
+      "title": "手机菜单、图谱与页脚修复"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/mobile-graph.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/mobile-graph/",
+      "slug": "building/astro-migration/mobile-graph",
+      "destination": "src/content/docs/building/astro-migration/mobile-graph.md",
+      "mode": "markdown",
+      "sourceSha256": "db96c775da1d1183b3157e7250e027237765d142c14e18904b90cebb5bb9be90",
+      "initialDestinationSha256": "b1aec89085cee08275a14ca9d9c74202c93d277bb79fcc9eb98a0986ae0a9803",
+      "title": "手机图谱可读性与五项验收续记"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/mobile-ui-density.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/mobile-ui-density/",
+      "slug": "building/astro-migration/mobile-ui-density",
+      "destination": "src/content/docs/building/astro-migration/mobile-ui-density.md",
+      "mode": "markdown",
+      "sourceSha256": "12be2570d6317ad7652e301af0d4d8e0f9e7098bddc6deb0fa805f420aad70df",
+      "initialDestinationSha256": "ed4b10ce028eebfa2c01e34f3388ac309aca00486e58bc235a5ad033428172a8",
+      "title": "手机界面信息密度与图谱交互优化"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/navigation-reading-taxonomy.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/navigation-reading-taxonomy/",
+      "slug": "building/astro-migration/navigation-reading-taxonomy",
+      "destination": "src/content/docs/building/astro-migration/navigation-reading-taxonomy.md",
+      "mode": "markdown",
+      "sourceSha256": "74a041823e8dc6e10b560cc8baac648f24a680bc40259d097babff86edf32bc5",
+      "initialDestinationSha256": "1be60ba06b215c538c8208a3091513be5e5d88fa00b50c85e13ebcd617a91604",
+      "title": "导航收敛、精选导读与分类整理"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/order.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/order/",
+      "slug": "legacy-guides/navigation/main/order",
+      "destination": "src/content/docs/legacy-guides/navigation/main/order.md",
+      "mode": "archived-html",
+      "sourceSha256": "8c4c7df4277751fddc0befb886fe3438f6c2ef134b74e281ef49bbcf9e9c871e",
+      "initialDestinationSha256": "739169bb317d0a85a3ccae6dbba582195a2fe17a7661eefd678f92823f9f5de1",
+      "title": "页面排序"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/parents.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/parents/",
+      "slug": "legacy-guides/navigation/parents",
+      "destination": "src/content/docs/legacy-guides/navigation/parents.md",
+      "mode": "archived-html",
+      "sourceSha256": "1cf3ba65aa2d9010bb445b1efd4cb81cb74f72a042a5c9709e988bb754e6a242",
+      "initialDestinationSha256": "4641a826acbd099e230cb7dce0a33c89d03a13d4a15d6e3d97e74d73abfc4b4b",
+      "title": "Breadcrumbs"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/projects-portfolio.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/projects-portfolio/",
+      "slug": "building/astro-migration/projects-portfolio",
+      "destination": "src/content/docs/building/astro-migration/projects-portfolio.md",
+      "mode": "markdown",
+      "sourceSha256": "435131d7a27bdd34b2cd4cb051e289d615edd6ef2edff492e1ee248a508cced6",
+      "initialDestinationSha256": "eb00ef26ec61095c759460d78c7be9f35ead9ae08cab0398fc93a4bdab3fc7c0",
+      "title": "项目页作品展示与补充链接"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/public-review.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/public-review/",
+      "slug": "building/astro-migration/public-review",
+      "destination": "src/content/docs/building/astro-migration/public-review.md",
+      "mode": "markdown",
+      "sourceSha256": "0c94ec6bc72f229ae0aae3a4515acacc0fc7a34d7f14afd84dcc3a6efd53a283",
+      "initialDestinationSha256": "445f50ff9d45ac479d558eded86c2937a4310c56ff724ede0d74fa87acb5a078",
+      "title": "公开预览与架构设计审查"
+    },
+    {
+      "source": "docs/blog-guide/rules/punctuation.md",
+      "legacyUrl": "/docs/blog-guide/rules/punctuation/",
+      "slug": "blog-guide/rules/punctuation",
+      "destination": "src/content/docs/blog-guide/rules/punctuation.md",
+      "mode": "markdown",
+      "sourceSha256": "90c964d34897a477fea125f3dc121e8778761ccd7bd1ce06ed4eb8cc189efb9d",
+      "initialDestinationSha256": "1d80ea500ccd6a3e39d6a409fc4e28f7210aacbb8a754a08feeda86c587b1984",
+      "title": "标点与预检查"
+    },
+    {
+      "source": "docs/Usage Guidelines/utilities/responsive-modifiers.md",
+      "legacyUrl": "/docs/Usage Guidelines/utilities/responsive-modifiers/",
+      "slug": "legacy-guides/utilities/responsive-modifiers",
+      "destination": "src/content/docs/legacy-guides/utilities/responsive-modifiers.md",
+      "mode": "archived-html",
+      "sourceSha256": "95ae128bfdedbfaaac242381210d0b4a6fec87760cc3118c224b6e81317330d3",
+      "initialDestinationSha256": "6b7e89b5021be73756d840933b80d4be930b57b8eb8e661ab4bcee2b550576c2",
+      "title": "响应式修饰符"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/search-and-home-motion.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/search-and-home-motion/",
+      "slug": "building/astro-migration/search-and-home-motion",
+      "destination": "src/content/docs/building/astro-migration/search-and-home-motion.md",
+      "mode": "markdown",
+      "sourceSha256": "d86a48fca895bc9f93bdc91a0ae660acda453f86c38966bebb02d97bcfed7413",
+      "initialDestinationSha256": "849366be159e46d5b8d9559b3bd17353d64e39778c82333dc630f42cc2b59eda",
+      "title": "搜索面板与首页弹簧动效"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/search-path-regression.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/search-path-regression/",
+      "slug": "building/astro-migration/search-path-regression",
+      "destination": "src/content/docs/building/astro-migration/search-path-regression.md",
+      "mode": "markdown",
+      "sourceSha256": "a8d37affb19fa43cf1709dc6198064214dc5bfc22578cd28eacca34acc4d782d",
+      "initialDestinationSha256": "029159044d085fc3368e8f05c5ea61857d6b0b254eb180c4f187bc1651120bca",
+      "title": "浏览器恢复后发现的搜索路径回归"
+    },
+    {
+      "source": "docs/Usage Guidelines/search.md",
+      "legacyUrl": "/docs/Usage Guidelines/search/",
+      "slug": "legacy-guides/search",
+      "destination": "src/content/docs/legacy-guides/search.md",
+      "mode": "archived-html",
+      "sourceSha256": "58e401069510e4f1b0188a8edc4f7dc895bada7fdfb85031690454b29e89611b",
+      "initialDestinationSha256": "4994d2ccef72bae00f2ae0f1b9243e74a40305f8fc43484ba3a46bc1d7cd77af",
+      "title": "搜索"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/selected-batch.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/selected-batch/",
+      "slug": "building/astro-migration/selected-batch",
+      "destination": "src/content/docs/building/astro-migration/selected-batch.md",
+      "mode": "markdown",
+      "sourceSha256": "7d53b382deb203c8d425f1f7c87b95b5a80241ee74d0fcff23195b2a1b5c3f3a",
+      "initialDestinationSha256": "e99626e24f8220adeb67212e2622f2281fdbb736c715b85a6a28e90b36c2def3",
+      "title": "所选十项执行与验收"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/site-icon.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/site-icon/",
+      "slug": "building/astro-migration/site-icon",
+      "destination": "src/content/docs/building/astro-migration/site-icon.md",
+      "mode": "markdown",
+      "sourceSha256": "ecca1c6903abb21a6dbef2f6f2e0512b8d6bccf734a8a3cfd7e77f78286536db",
+      "initialDestinationSha256": "fef6aabac0a70d42f1b700b3c680a8f0b0dd967e43a32c8ad6c0755347638f63",
+      "title": "透明月牙网站图标与分享缩略图"
+    },
+    {
+      "source": "docs/blog-guide/structure.md",
+      "legacyUrl": "/docs/blog-guide/structure/",
+      "slug": "blog-guide/structure",
+      "destination": "src/content/docs/blog-guide/structure.md",
+      "mode": "markdown",
+      "sourceSha256": "e4aa9b7aa531be9e1e7d17342972951a5a45380ac123dca48593f9b4eb06e8fd",
+      "initialDestinationSha256": "e877b72775eb65738f2967781b80e464cbff210390f24c221d711acbd8f2d472",
+      "title": "站点结构"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/supplied-site-icon.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/supplied-site-icon/",
+      "slug": "building/astro-migration/supplied-site-icon",
+      "destination": "src/content/docs/building/astro-migration/supplied-site-icon.md",
+      "mode": "markdown",
+      "sourceSha256": "ec156543e721c075e9308ba5bc11d10e28e356cfe58516c7344a91f5894a7677",
+      "initialDestinationSha256": "cb7a0a4e8ca02fb51a683b38071b11893bc07458391b55e3eb0458c16875fc2c",
+      "title": "用户指定的透明人物网站图标"
+    },
+    {
+      "source": "docs/Usage Guidelines/ui-components/tables.md",
+      "legacyUrl": "/docs/Usage Guidelines/ui-components/tables/",
+      "slug": "legacy-guides/ui-components/tables",
+      "destination": "src/content/docs/legacy-guides/ui-components/tables.md",
+      "mode": "archived-html",
+      "sourceSha256": "ea2a59becc109796b23ae07ed31b56e305448f2863f11e40aeb84cd8acf4419d",
+      "initialDestinationSha256": "5308cf08dd0865e7a30a16033f5884b69d22518b548b54e3ce03075c6919e0d7",
+      "title": "表格"
+    },
+    {
+      "source": "docs/Usage Guidelines/ui-components/typography.md",
+      "legacyUrl": "/docs/Usage Guidelines/ui-components/typography/",
+      "slug": "legacy-guides/ui-components/typography",
+      "destination": "src/content/docs/legacy-guides/ui-components/typography.md",
+      "mode": "archived-html",
+      "sourceSha256": "9a243ce790ad6fe3c1ca9e5f7fc4fc4bd157a488efe9d26452a2b21a6551fb36",
+      "initialDestinationSha256": "0e07f3279002f961b2acc6a6fcda105e940c0757cfff343048166eae9f031854",
+      "title": "排版"
+    },
+    {
+      "source": "docs/Usage Guidelines/utilities/typography.md",
+      "legacyUrl": "/docs/Usage Guidelines/utilities/typography/",
+      "slug": "legacy-guides/utilities/typography",
+      "destination": "src/content/docs/legacy-guides/utilities/typography.md",
+      "mode": "archived-html",
+      "sourceSha256": "2dadbfe1194d9297d509fcc79abc6793f4fcc471e0605ec652f33ca121e9b6bf",
+      "initialDestinationSha256": "66106b5a5e183ad79145df739c3104bc6655e0ec1a6854c22d227427c3d7352d",
+      "title": "排版"
+    },
+    {
+      "source": "docs/Website Building Notes/astro-migration/validation.md",
+      "legacyUrl": "/docs/Website Building Notes/astro-migration/validation/",
+      "slug": "building/astro-migration/validation",
+      "destination": "src/content/docs/building/astro-migration/validation.md",
+      "mode": "markdown",
+      "sourceSha256": "5b56e98c978bee2d8fd025a4ed29b082e5deeba4129530d266b7f5c824e558bc",
+      "initialDestinationSha256": "2815bf1199c3ea5fa18cfd374a1bf000cf2d6934ea88cf438220a01001c2c821",
+      "title": "验证结果"
+    },
+    {
+      "source": "docs/blog-guide/studio/write.md",
+      "legacyUrl": "/docs/blog-guide/studio/write/",
+      "slug": "blog-guide/studio/write",
+      "destination": "src/content/docs/blog-guide/studio/write.md",
+      "mode": "markdown",
+      "sourceSha256": "7406d0cc3c1676c2517519047c47d058c1cf17a39c5ac540998d85b9b226e034",
+      "initialDestinationSha256": "cbc4f2ad26bc59f286cd122ce0e3642853df40838af22ea8c69c63a94e201d30",
+      "title": "写一篇文章"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/x.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/x/",
+      "slug": "legacy-guides/navigation/main/x",
+      "destination": "src/content/docs/legacy-guides/navigation/main/x.md",
+      "mode": "archived-html",
+      "sourceSha256": "5244d5e4f91fb9cae8dc381a171cc269ec3036a33cc5caaaea69d37f87d905fe",
+      "initialDestinationSha256": "a3c5d301cdf7ca0ccfe90564385bacf8238c26ef516b63a4853fa06f7725dfaf",
+      "title": "X"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/xs.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/xs/",
+      "slug": "legacy-guides/navigation/main/xs",
+      "destination": "src/content/docs/legacy-guides/navigation/main/xs.md",
+      "mode": "archived-html",
+      "sourceSha256": "b9a67bf4a18a38271b550a1d174428465c6762a11dae42885285fb1b6bfc3d0c",
+      "initialDestinationSha256": "a0c71d3b2edccaba622141d6e3f71bed4172bce2b66a4d545df569dab5aeb31c",
+      "title": "S"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/xt.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/xt/",
+      "slug": "legacy-guides/navigation/main/xt",
+      "destination": "src/content/docs/legacy-guides/navigation/main/xt.md",
+      "mode": "archived-html",
+      "sourceSha256": "7301fce7a893a9df49df532bafa691872de2cc581e7b3e144770e60f2ba19d90",
+      "initialDestinationSha256": "d277f6fd032844d341315b052dea785eeae17ebdbfe7b05e81362a64b62d8bfe",
+      "title": "T"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/xu.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/xu/",
+      "slug": "legacy-guides/navigation/main/xu",
+      "destination": "src/content/docs/legacy-guides/navigation/main/xu.md",
+      "mode": "archived-html",
+      "sourceSha256": "ffecc186670418253c28626fe1c39d8c2c09221fda3ae873070f5d513d77d96f",
+      "initialDestinationSha256": "143549764d092e333eb504bb1d18c7e67cf8f2eae46b272a4fc502b797109a5b",
+      "title": "U"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/y.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/y/",
+      "slug": "legacy-guides/navigation/main/y",
+      "destination": "src/content/docs/legacy-guides/navigation/main/y.md",
+      "mode": "archived-html",
+      "sourceSha256": "93526220ae31e13b72dc81b418f8c38f130f9f29ae9ef528e5fb6261a7cd23f1",
+      "initialDestinationSha256": "79741510172749667e493c7a50b32c0ee01ae07220d03fff7003f7e407e2deb0",
+      "title": "Y"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/ys.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/ys/",
+      "slug": "legacy-guides/navigation/main/ys",
+      "destination": "src/content/docs/legacy-guides/navigation/main/ys.md",
+      "mode": "archived-html",
+      "sourceSha256": "c0bf637316b829a055acb1d7544c3f9ae03bde7ef3370f65a6262ba7c4ec2dfe",
+      "initialDestinationSha256": "5b7d493513184730b2e72e2ad0cad89761fe27952836d6aa1ce89ee328cdf5ff",
+      "title": "S"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/yt.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/yt/",
+      "slug": "legacy-guides/navigation/main/yt",
+      "destination": "src/content/docs/legacy-guides/navigation/main/yt.md",
+      "mode": "archived-html",
+      "sourceSha256": "9d80e826b8765e8c7062096508cda646ae8efa57f18850b51ce2ed20f3650da7",
+      "initialDestinationSha256": "fffbade5e3a358d351330fe6b3c15965370cc4a17001b88dda76279b32121511",
+      "title": "T"
+    },
+    {
+      "source": "docs/Usage Guidelines/navigation/main/yu.md",
+      "legacyUrl": "/docs/Usage Guidelines/navigation/main/yu/",
+      "slug": "legacy-guides/navigation/main/yu",
+      "destination": "src/content/docs/legacy-guides/navigation/main/yu.md",
+      "mode": "archived-html",
+      "sourceSha256": "fd34d10f97abcb410d4252d9e5d3df86d036ec1824c98c0dc0a7e0167494088e",
+      "initialDestinationSha256": "d78c86229863d2d1b90d5c5215e2adc746b647777b7d2be8f83853d92603220c",
+      "title": "U"
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/css/just-the-docs-dark.scss",
+      "sha256": "3bff10aad65e96a3394ebe977a99115b8ab26d688442353951cda014623cd5b2"
+    },
+    {
+      "path": "assets/css/just-the-docs-default.scss",
+      "sha256": "d8d0bcfed760daac4b22944960c263f3b59bbcd0a734818ab3b77e50ba2e8106"
+    },
+    {
+      "path": "assets/css/just-the-docs-head-nav.css",
+      "sha256": "affd6b7585a4e8b2d39ca28051750cc480ce6c87e9015d01cd5c5dfab9d6351f"
+    },
+    {
+      "path": "assets/css/just-the-docs-light.scss",
+      "sha256": "83069d3d889bdbb0b9b77352844beadb4e0fdb40887817d86c1b9a1d414979ed"
+    },
+    {
+      "path": "assets/demo/404-prototype.html",
+      "sha256": "b4e42368809ed058a0095eca3f907d9c08c87a71638b7050d8da8c45b8874f04"
+    },
+    {
+      "path": "assets/demo/chat-ambient-preview.html",
+      "sha256": "d3494b5a2a7e450e182e89c29b116e0cd5e196d8f5818ecdac584e57e94d9b94"
+    },
+    {
+      "path": "assets/files/lunr-languages-1.13.0.zip",
+      "sha256": "b098469dae8da2357de3023e5b78f80a82e014b432510e6bb50d25aced8f58a1"
+    },
+    {
+      "path": "assets/files/mermaid-11.4.0.rar",
+      "sha256": "46405abe8b8f14bb37d51a62f82478fc72653b66a5076cc58ce391a453ea3776"
+    },
+    {
+      "path": "assets/files/workflows_old.rar",
+      "sha256": "de1cb5b2e66bc5915337d4330b517ed96e87121ce443b34954cecdb667da0858"
+    },
+    {
+      "path": "assets/images/large-image.jpg",
+      "sha256": "c14f484d16680faaf9a69089fa4cc2d7bec6aa2c6f7ac1d6e0cb6508aed2d0aa"
+    },
+    {
+      "path": "assets/images/small-image.jpg",
+      "sha256": "6e9152fc1153b9fb8c0a9ad4f3ccc655f0375078bf4b40589a0ebdc8b740e693"
+    },
+    {
+      "path": "assets/js/just-the-docs.js",
+      "sha256": "58395a8817eddc9ed5e09a945ee09e3ccd1bd56979a57cabc25a9c3949a7531b"
+    },
+    {
+      "path": "assets/js/mermaid.esm.min.mjs",
+      "sha256": "374cf14aa5fab40bfa207e8837f453bf075cfd1d003ce6e7f0c2cea67c3324e3"
+    },
+    {
+      "path": "assets/js/mermaid.esm.min.mjs.map",
+      "sha256": "f4e11f574bb712ad2cd3a569d9dc6e88a53792eec85ad90c81a4c62bc09f341c"
+    },
+    {
+      "path": "assets/js/zzzz-search-data.json",
+      "sha256": "ca5e15d8c2e5a16f430693ce2cffbe220c9abf57b76267aa4f09dc38055418ce"
+    },
+    {
+      "path": "assets/js/vendor/lunr.min.js",
+      "sha256": "2bcbcc40f8995797a769d2eee511eb0f33d51fc4ec038bffd525d14c609cf16c"
+    },
+    {
+      "path": "assets/images/404-redesign/before.webp",
+      "sha256": "500a702cb501b6f5382c944b22c8ec9cb7e9f3aac1d0ecfb5f7724bec5b15f59"
+    },
+    {
+      "path": "assets/images/404-redesign/dark.webp",
+      "sha256": "f9a80d2f65e44c679c34b20e20d3e64e37799b40016dbf63a99e482c22c4b4bd"
+    },
+    {
+      "path": "assets/images/404-redesign/desktop.webp",
+      "sha256": "422225783c45d3cd7ee2ca4791c176be60b0d44bab04d2092daa57a8a4e88650"
+    },
+    {
+      "path": "assets/images/404-redesign/mobile.webp",
+      "sha256": "bd42061cc27f7902012485f6daac50095661ed0d85258c03212dd5977a23f539"
+    },
+    {
+      "path": "assets/images/404-redesign/search.webp",
+      "sha256": "4af2b3c77c214540ae81c02d88685128fb58a98d3f07fde56c11dfd5c32e4f50"
+    },
+    {
+      "path": "assets/images/chat-ambient/after-dark.webp",
+      "sha256": "98ecb76857170e3df49dbd744c894ef2dbe389b25ab2ef8a00b20aff3d6b9871"
+    },
+    {
+      "path": "assets/images/chat-ambient/after-light.webp",
+      "sha256": "6805088d9a9d42775e8213b2422c1e65432d9e21c7faa80390bbee4085828b5a"
+    },
+    {
+      "path": "assets/images/chat-ambient/before-dark.webp",
+      "sha256": "e132c6fdcf1379925a57bc3aeeec3fdfd0c8ad873db767ce2dc31b0220283ce7"
+    },
+    {
+      "path": "assets/images/chat-ambient/drawer.webp",
+      "sha256": "1ef42e653e9af2021347da9f98880c8dc9eafd71cb6a412bc39a015d3b01ff2b"
+    },
+    {
+      "path": "assets/images/chat-ambient/mobile.webp",
+      "sha256": "7ee11ad4e53966ec172d9d395bb723f3dbe2e79066de0835055eb97d11bec80b"
+    },
+    {
+      "path": "assets/images/chat-subsite/ai.png",
+      "sha256": "0086baa158533d5a67561698264ffc2a2ffcfa7f8dc9320788efde600738eda1"
+    },
+    {
+      "path": "assets/images/chat-subsite/drawer.png",
+      "sha256": "c935018cd8d1b99737527ca5fbb3eb0ea4c884c85691c9aab34111c36f3259e4"
+    },
+    {
+      "path": "assets/images/chat-subsite/ending.png",
+      "sha256": "5b767f8441cc02277a739053b75cbc8b1c4186c615ffa3e7a4e4400ff990fd58"
+    },
+    {
+      "path": "assets/images/chat-subsite/game.png",
+      "sha256": "9f0cbb88a533afe1bf5d823efc82e0779acd4554a2204faa70b6ed7934c8a17e"
+    },
+    {
+      "path": "assets/images/favicon/可爱喂东西动漫头像-up3x-denoise3x-1种尺寸.ico",
+      "sha256": "377e37704fe8351f0fa4be6d2768e703fe078f74add660580aecb21b66820a78"
+    },
+    {
+      "path": "assets/images/favicon/可爱喂东西动漫头像-up3x-denoise3x.png",
+      "sha256": "85b8c69ed8398b8174dad8326b4c9fb0b85b7415474cdc86cee840fcf4c6ea22"
+    },
+    {
+      "path": "assets/files/yubai/2026-01-multimodal-vision.pdf",
+      "sha256": "f70f3e27e790ec6bae642c7723f6e5a4dae31059e224c1adb1bf4525d4f2d822"
+    }
+  ]
+}

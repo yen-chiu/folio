@@ -1,0 +1,128 @@
+---
+title: 把 Git 历史瘦下来
+slug: building/git-history-slim
+legacySource: docs/Website Building Notes/git-history-slim.md
+legacyUrl: /docs/Website Building Notes/git-history-slim/
+sidebar:
+  order: 2
+---
+
+# 把 Git 历史瘦下来
+
+## 一句话
+
+**删文件不会让仓库变小**。只有当旧提交不再被任何分支或标签引用，那些大对象才会被回收。
+
+## 名词解释
+
+git 里存东西不是「文件」，而是四类对象：
+
+| 对象 | 存什么 |
+| --- | --- |
+| **blob** | 文件**内容**的字节流；没有文件名、没有路径、没有权限 |
+| tree | 目录清单：名字 + 权限 + 指向的 blob/tree |
+| commit | 一次快照：根 tree + 父提交 + 作者 / 时间 / 说明 |
+| tag | 带说明的标签对象，比如 `v2.0.1` |
+
+blob 的名字由内容算出来：
+
+```text
+sha1("blob <长度>\0" + 文件内容)
+```
+
+两个直接后果：
+
+- **内容相同就是同一个 blob**，自动去重，不管文件名是什么
+- **改一个字节就多一个 blob**；重命名或移动文件不会产生新 blob
+
+所以一张图从 6.3MB 压到 668KB，历史里就是两个 blob：旧的 `1a2f9cfc…` 和新的。仓库体积主要是 blob 撑起来的，瘦身也就是在删这些旧 blob。
+
+```bash
+git cat-file -t <sha>          # 看类型：blob / tree / commit
+git cat-file -s <sha>          # 看字节数
+git hash-object <文件>          # 算文件对应的 blob sha
+git rev-list --objects --all   # 列出「路径 ↔ blob sha」的对应关系
+```
+
+## 原理
+
+git 是内容寻址存储：
+
+```text
+ref（分支/标签） → commit → tree → blob（文件内容）
+```
+
+- 在新提交里删掉文件，只是**新树**没有它；旧提交仍指向旧树，blob 依然「可达」
+- 只要还有 ref 能走到旧提交，`git clone` 就照样把大文件拉下来
+- 重写历史 = 重建 tree / commit，把大 blob 从所有历史版本里剔除 → 旧对象不再可达
+- 不可达不等于已删除：还要清 reflog 并 gc，对象才会真正消失
+
+## 操作
+
+```bash
+# 0. 备份（唯一后悔药）
+git bundle create ../pre-rewrite.bundle --all
+
+# 1. 重写：剔除历史里大于 2MiB 的 blob
+python git-filter-repo --strip-blobs-bigger-than 2M --force
+
+# 2. 清引用、回收对象
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+
+# 3. 强推（filter-repo 会移除 origin，先加回）
+git remote add origin <仓库地址>
+git push --force origin master
+```
+
+如果只想删某个文件，把第 1 步换成：
+
+```bash
+python git-filter-repo --invert-paths --path assets/media/xxx.mp4 --force
+```
+
+## 阈值怎么定
+
+阈值必须**大于当前工作区里最大的文件**，否则现在还在用的文件会被一起剔除。
+
+```text
+当前最大文件   2,088,691 字节
+2 MiB          2,097,152 字节   ← 阈值放这里才安全
+```
+
+判断依据：
+
+| 情况 | 结果 |
+| --- | --- |
+| 阈值 > 当前最大文件 | 只清历史旧版本，站点不受影响 |
+| 阈值 ≤ 当前最大文件 | 连当前版本也会被删，工作区文件消失 |
+
+## 代价
+
+| 项 | 影响 |
+| --- | --- |
+| commit hash | 全部改变，别的机器要重新 clone |
+| 标签 | 指向的提交被重写（Release 仍按标签名挂载） |
+| 远端 | 旧对象要等 GitHub 自己回收，体积不会立刻变化 |
+| 备份 | 重写前一定先 bundle，否则回不到旧历史 |
+
+## 验证清单
+
+- `git rev-list --objects --all | grep <大文件>` 输出为空
+- `git count-objects -vH` 和 `.git` 目录体积明显下降
+- 构建通过，文章配图、头像等当前资源仍能正常加载
+- CI 与 Pages 部署都是绿的
+
+## 实测
+
+```text
+本地 .git     187.4 MB → 38.1 MB（−79.7%）
+GitHub 仓库   36.8 MB
+剔除内容      72MB 视频 + 旧头像/旧配图约 50MB
+```
+
+两次重写分别踩过的坑：
+
+1. 只删 `assets/media/...` 路径不够——同一个 blob 还挂在旧路径 `_posts/images/...` 下
+2. 清完 master 还要清 `backup`、`upgrade`、`备份` 分支和 `v*` 标签，否则对象依旧可达
+3. `gc` 之后体积没降，多半是 reflog 还引用着旧提交

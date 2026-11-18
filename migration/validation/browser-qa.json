@@ -1,0 +1,48 @@
+{
+  "environment": "Chrome desktop responsive emulation; not a physical phone",
+  "viewports": [
+    {
+      "width": 320,
+      "clientWidth": 305,
+      "scrollWidth": 305,
+      "context": "writing-studio guide",
+      "pageTitles": 1,
+      "duplicateBodyTitle": false
+    },
+    {
+      "width": 390,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "contexts": [
+        "home",
+        "writing-studio guide",
+        "historical Mermaid demo"
+      ]
+    },
+    {
+      "width": 1280,
+      "clientWidth": 1265,
+      "scrollWidth": 1265,
+      "context": "home"
+    }
+  ],
+  "verified": [
+    "Chinese navigation groups",
+    "Chinese full-text search returns results",
+    "Selecting a result navigates within /folio/ and closes the search modal",
+    "Mobile TOC navigates to Mermaid section and collapses",
+    "Native code copy reports success",
+    "Mermaid SVG renders and responds to dark theme",
+    "Theme selection restored to automatic",
+    "Viewport override reset"
+  ],
+  "screenshots": [
+    "C:/03_Github/.work/folio-home-desktop.jpg",
+    "C:/03_Github/.work/folio-home-mobile.jpg",
+    "C:/03_Github/.work/folio-mobile-diagram.jpg"
+  ],
+  "notes": [
+    "Browser extension overlays in screenshots are not Folio components.",
+    "Historical typography/color utility examples retain content but do not reproduce the full old theme."
+  ]
+}

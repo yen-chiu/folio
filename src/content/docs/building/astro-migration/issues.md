@@ -1,0 +1,47 @@
+---
+title: 待处理问题
+slug: building/astro-migration/issues
+legacySource: docs/Website Building Notes/astro-migration/issues.md
+legacyUrl: /docs/Website Building Notes/astro-migration/issues/
+sidebar:
+  order: 3
+---
+
+# 待处理问题与决策
+
+## 最新状态（2026-11-17）
+
+最新一批已完成标签云选后关闭和手机字号修复、手机文件管理器自动定位及上一级按钮、玻璃分组导航、外观面板和首页封面。参见[交互与外观改版记录](../appearance-navigation/)，其中区分本地浏览器实测、线上发布核对与未覆盖项目。
+
+公开预览已部署至 /yen-chiu-astro/，原站不切换。搜索、原文 slug 与重定向、完整关于页、原仓库 Giscus 参数已补齐；后续手机菜单、图谱点选及缩放、页脚时间与刷新已完成构建和 Chrome 手机视口验收，详见[最新修复记录](../mobile-controls/)。工作台按用户最新指示暂缓。尚待覆盖 Giscus 正文、嵌套预览、全部筛选与第三方媒体；真实手机体验由用户继续观察。
+
+## 初始问题快照（保留历史，当前状态以上文及分项记录为准）
+
+1. 搜索面板：桌面浏览器点击搜索按钮后未展开；当次没有捕获到控制台错误。后续检查事件初始化、页面过渡及搜索索引。搜索不算验收通过。
+2. 旧地址兼容：目前文章使用稳定的临时 slug（post-日期-序号），原站 /posts/ 链接暂回线上；正式迁移前应决定永久地址并补重定向，避免 SEO 与书签失效。
+3. 聊天工作区、工具、游戏与后台没有迁移运行时，继续使用原站。不要将 Chat 快照当作最新源。
+4. 关于页目前是简版与原站入口；原站完整更新日志、子域名导航与 journal 索引待迁移。未读取草稿、登录数据或私有后台内容。
+5. 移动端、明暗切换、知识图谱、嵌套预览与搜索过滤尚未完成交互验收。
+6. 评论配置待用户提供或决定复用方式；原作者 Giscus 已禁用。原作者收款码和错误版权标签已从文章组件移除。
+
+## 依赖与构建
+
+- 原始 npm ci 因 TypeScript 6 与检查工具 TypeScript 5 peer 冲突失败；已固定 TypeScript 5.9.3。
+- 原锁文件与 manifest 不一致；保留原件后重新生成 npm 锁。
+- Typst peer 冲突，需要 legacy-peer-deps；已在 .npmrc 固定安装策略。Typst 集成缺失 cheerio 且本轮内容不用 Typst，暂不启用；未来如需 Typst 再整体校准版本。
+- 外部 Fontshare 下载不稳定，改用系统字体，避免构建依赖第三方字体网络。
+- 原模板 15 个类型错误已修复；主要是 docs/blog 共用组件字段、Card href 与 rehype rel 类型。
+- Windows 默认临时目录出现 esbuild 删除权限错误，构建改用 C:/03_Github/.work/iris-temp。
+- Markdown 示例中的 flow、seq、gantt、gitignore 代码语言暂为纯文本。不会自动改写示例语义。
+- 旧 Markdown 外链图片自动探测失败；改为原生 img，构建不再下载该图片。外部链接可用性仍受原服务影响。
+- src/content/docs 暂空，构建有空集合提示；文档库仍由 WendellManual 管理。
+
+## 初始待决事项快照
+
+确认首页风格（本轮先用简洁文章列表替换原作者个人介绍）、永久文章 URL、完整聊天迁移顺序、临时预览托管及最终域名切换。当前没有公开新站或切换 DNS。
+
+
+## 2026-11-18 本批补充待验
+
+- [全屏首页、日历与链接页](../home-archive-links/)：手机真机、鼠标跟随与系统减少动效偏好的实际设备验收；雨声的实际扬声器输出。正式歌曲/歌单尚未指定，目前只提供手动开启的本地合成雨声。
+- [透明人物网站图标](../supplied-site-icon/)：插画原作者/来源署名尚未提供；原始浏览器标签栏/已收藏站点的系统缓存表现未直接检查。PNG/ICO alpha、网页引用和实际图片加载已验证。

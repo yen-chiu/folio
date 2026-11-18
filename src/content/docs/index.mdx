@@ -1,0 +1,34 @@
+---
+title: Folio
+description: 博客指南、建站笔记与持续积累的知识。
+template: splash
+hero:
+  title: Folio
+  tagline: 把经验写成可查阅的知识。
+  actions:
+    - text: 从这里开始
+      link: /folio/start-here/
+      icon: right-arrow
+      variant: primary
+    - text: 浏览建站笔记
+      link: /folio/building/
+      variant: minimal
+---
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## 找到你需要的那一页
+
+<CardGrid>
+  <LinkCard title="博客指南" description="从登录写作台，到文章、图片与评论的维护。" href="/folio/blog-guide/" />
+  <LinkCard title="建站笔记" description="记录搭建、排查与改造，也保留每一步的依据。" href="/folio/building/" />
+  <LinkCard title="资料导航" description="收集常用工具、参考资料与值得再次打开的链接。" href="/folio/resources/" />
+  <LinkCard title="其他笔记" description="留给兴趣、阅读与暂时还没有分类的发现。" href="/folio/notes/" />
+</CardGrid>
+
+## 持续整理，也保留来处
+
+内容来自原有文档库。博客指南与建站笔记可按目录浏览，也可以用顶部搜索直接查找。
+旧主题的教程和演示单独收在「旧主题参考」，适用范围会在页首注明。
+
+[查看迁移说明](/folio/about-migration/) · [访问博客](https://yenchiu.com/yen-chiu-astro/)

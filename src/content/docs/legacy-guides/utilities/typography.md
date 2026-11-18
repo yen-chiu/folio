@@ -1,0 +1,233 @@
+---
+title: 排版
+slug: legacy-guides/utilities/typography
+legacySource: docs/Usage Guidelines/utilities/typography.md
+legacyUrl: /docs/Usage Guidelines/utilities/typography/
+banner:
+  content: 历史参考：本页记录旧 Jekyll / Just the Docs 的用法，示例按迁移时的内容保留。Folio 的使用方法请看「从这里开始」。
+---
+
+<div class="legacy-content">
+
+<h1 class="no_toc" id="排版实用工具">排版实用工具</h1>
+
+<h2 class="no_toc text-delta" id="目录">目录</h2>
+
+<ol id="markdown-toc">
+  <li><a href="#font-size" id="markdown-toc-font-size">Font size</a></li>
+  <li><a href="#font-weight" id="markdown-toc-font-weight">Font weight</a></li>
+  <li><a href="#line-height" id="markdown-toc-line-height">Line height</a></li>
+  <li><a href="#text-justification" id="markdown-toc-text-justification">Text justification</a></li>
+</ol>
+
+<hr />
+
+<h2 id="font-size">Font size</h2>
+
+<p>Use the <code class="language-plaintext highlighter-rouge">.fs-1</code> - <code class="language-plaintext highlighter-rouge">.fs-10</code> to set an explicit <code class="language-plaintext highlighter-rouge">font-size</code>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Class</th>
+      <th style="text-align: left">Small screen size <code class="language-plaintext highlighter-rouge">font-size</code></th>
+      <th style="text-align: left">Large screen size <code class="language-plaintext highlighter-rouge">font-size</code></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.fs-1</code></td>
+      <td style="text-align: left">9px</td>
+      <td style="text-align: left">10px</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.fs-2</code></td>
+      <td style="text-align: left">11px</td>
+      <td style="text-align: left">12px</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.fs-3</code></td>
+      <td style="text-align: left">12px</td>
+      <td style="text-align: left">14px</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.fs-4</code></td>
+      <td style="text-align: left">14px</td>
+      <td style="text-align: left">16px</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.fs-5</code></td>
+      <td style="text-align: left">16px</td>
+      <td style="text-align: left">18px</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.fs-6</code></td>
+      <td style="text-align: left">18px</td>
+      <td style="text-align: left">24px</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.fs-7</code></td>
+      <td style="text-align: left">24px</td>
+      <td style="text-align: left">32px</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.fs-8</code></td>
+      <td style="text-align: left">32px</td>
+      <td style="text-align: left">38px</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.fs-9</code></td>
+      <td style="text-align: left">38px</td>
+      <td style="text-align: left">42px</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.fs-10</code></td>
+      <td style="text-align: left">42px</td>
+      <td style="text-align: left">48px</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="code-example">
+  <p class="fs-1">Font size 1</p>
+  <p class="fs-2">Font size 2</p>
+  <p class="fs-3">Font size 3</p>
+  <p class="fs-4">Font size 4</p>
+  <p class="fs-5">Font size 5</p>
+  <p class="fs-6">Font size 6</p>
+  <p class="fs-7">Font size 7</p>
+  <p class="fs-8">Font size 8</p>
+  <p class="fs-9">Font size 9</p>
+  <p class="fs-10">Font size 10</p>
+</div>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In Markdown, use the <span class="sb">`{: }`</span> wrapper to apply custom classes:
+
+Font size 1
+{: .fs-1 }
+Font size 2
+{: .fs-2 }
+Font size 3
+{: .fs-3 }
+Font size 4
+{: .fs-4 }
+Font size 5
+{: .fs-5 }
+Font size 6
+{: .fs-6 }
+Font size 7
+{: .fs-7 }
+Font size 8
+{: .fs-8 }
+Font size 9
+{: .fs-9 }
+Font size 10
+{: .fs-10 }
+</code></pre></div></div>
+
+<h2 id="font-weight">Font weight</h2>
+
+<p>Use the <code class="language-plaintext highlighter-rouge">.fw-300</code> - <code class="language-plaintext highlighter-rouge">.fw-700</code> to set an explicit <code class="language-plaintext highlighter-rouge">font-weight</code>.</p>
+
+<div class="code-example">
+  <p class="fw-300">Font weight 300</p>
+  <p class="fw-400">Font weight 400</p>
+  <p class="fw-500">Font weight 500</p>
+  <p class="fw-700">Font weight 700</p>
+</div>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In Markdown, use the <span class="sb">`{: }`</span> wrapper to apply custom classes:
+
+Font weight 300
+{: .fw-300 }
+Font weight 400
+{: .fw-400 }
+Font weight 500
+{: .fw-500 }
+Font weight 700
+{: .fw-700 }
+</code></pre></div></div>
+
+<h2 id="line-height">Line height</h2>
+
+<p>Use the <code class="language-plaintext highlighter-rouge">lh-</code> classes to explicitly apply line height to text.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Class</th>
+      <th style="text-align: left"><code class="language-plaintext highlighter-rouge">line-height</code> value</th>
+      <th style="text-align: left">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.lh-0</code></td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.lh-tight</code></td>
+      <td style="text-align: left">1.1</td>
+      <td style="text-align: left">Default for headings</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.lh-default</code></td>
+      <td style="text-align: left">1.4</td>
+      <td style="text-align: left">Default for body (paragraphs)</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="code-example">
+  <p class="lh-0">No Line height
+No Line height</p>
+
+  <p class="lh-tight">Tight line height
+Tight line height</p>
+
+  <p class="fh-default">Default line height
+Default line height</p>
+</div>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In Markdown, use the <span class="sb">`{: }`</span> wrapper to apply custom classes:
+
+No Line height
+No Line height
+{: .lh-0 }
+
+Tight line height
+Tight line height
+{: .lh-tight }
+
+Default line height
+Default line height
+{: .fh-default }
+</code></pre></div></div>
+
+<h2 id="text-justification">Text justification</h2>
+
+<p>By default text is justified left. Use these <code class="language-plaintext highlighter-rouge">text-</code> classes to override settings:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Class</th>
+      <th style="text-align: left">What it does</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.text-left</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">text-align: left</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.text-right</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">text-align: right</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">.text-center</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">text-align: center</code></td>
+    </tr>
+  </tbody>
+</table>
+
+
+</div>
