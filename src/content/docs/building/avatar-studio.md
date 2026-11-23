@@ -66,14 +66,16 @@ Avatar Studio 的目标是将**更换头像**变成一个独立、可审查的�
                   ↓
 Worker 再验证登录、请求来源、文件格式
                   ↓
-GitHub API 仅更新 main/src/assets/avatar.png
+GitHub API 仅更新 feature/avatar-studio 中的 PNG
                   ↓
-Vesper 的 GitHub Actions 构建并验证
+专用 Avatar Studio Actions 生成并验证两种动画
                   ↓
-  静态 PNG + Animated WebP + GIF 发布
+三个资源在同一次提交中写入 main
+                  ↓
+显式触发 Vesper GitHub Pages 构建与发布
 ```
 
-**关键边界**：开发代码留在分支，不自动合并；发布行为会明确修改主站 `main` 的特定头像资源。这两件事不能混为一谈。
+**关键边界**：Studio 的页面和 Worker 代码不自动合并；上传先更新开发分支的 PNG，独立构建成功后才将 PNG、WebP、GIF 三个指定资源作为同一个提交发布到 `main`。生成失败不应让主站出现半套头像。
 
 ## 三、功能范围与交互
 
@@ -114,9 +116,9 @@ Vesper 的 GitHub Actions 构建并验证
 
 - 确认按钮前显示明确警示：发布将替换网站公开头像，并触发主站构建。
 - 二次确认后才向 Worker 发送图片字节。
-- Worker 只允许更新固定仓库 `yen-chiu/yen-chiu.github.io`、固定分支 `main`、固定路径 `src/assets/avatar.png`。
+- Worker 只允许更新固定仓库 `yen-chiu/yen-chiu.github.io`、固定分支 `feature/avatar-studio`、固定路径 `src/assets/avatar.png`；专用 Actions 通过验证后，才允许一次提交三个指定资源至 `main`。
 - GitHub Token 只存于 Worker Secret，最小化为当前仓库 Contents 读写权限；不出现在源码、文档、页面源码或客户端请求里。
-- 发布后显示真实 GitHub 提交 ID，并提供部署状态入口；**不能把“已提交”显示为“已部署成功”**。
+- 管理页先显示**暂存分支**提交 ID 和生成任务入口；专用 Actions 成功后再在 `main` 生成原图与两种动画的统一提交。**不能把“暂存成功”显示为“已发布成功”**。
 - 当主站部署失败时，应有清楚的失败反馈与手动恢复路径，不能假定自动回滚已经实现。
 
 ## 四、安全与隐私要求
@@ -135,16 +137,17 @@ Vesper 的 GitHub Actions 构建并验证
 
 当前分支已有早期实现：
 
-- `studio/worker.mjs`：受保护的管理页面、上传和发布接口的初版；
+- `studio/worker.mjs`：受保护的管理页面和 PNG 暂存接口的初版；
 - `studio/wrangler.toml`：Cloudflare Worker 初始配置；
 - `studio/worker.test.mjs`：未授权访问和拒绝发布的基础测试；
 - `studio/README.md`：部署条件和权限设置；
+- `.github/workflows/avatar-studio-publish.yml`（开发分支）：独立生成、验证并一次提交 PNG / Animated WebP / GIF，随后触发 Pages 部署；
 - `.github/workflows/avatar-studio-ci.yml`：开发分支检查工作流。
 
 主站现有：
 
-- `scripts/generate-avatar-gif.py`：从原始 PNG 导出 Animated WebP / GIF；
-- `.github/workflows/deploy.yml`：主站构建期间生成资产；
+- `scripts/generate-avatar-gif.py`：从原始 PNG 导出 Animated WebP / GIF；由独立 Avatar Studio 工作流调用；
+- `.github/workflows/deploy.yml`：只构建和部署主站，当前已移除 Pillow 安装与头像转换步骤；
 - `src/components/InteractiveAvatar.astro` 与外观设置：静态/动态头像切换。
 
 **未完成的事实**：真实 Cloudflare Access 应用与专用域名尚未配置；Worker 未正式部署；真实 GitHub 写入与完整端到端构建尚未验收。早期测试/代码存在不等于生产可用。
@@ -154,7 +157,7 @@ Vesper 的 GitHub Actions 构建并验证
 | 阶段 | 工作 | 阶段完成标准 | 状态 |
 | --- | --- | --- | --- |
 | M0 · 立项 | 项目书、系统边界、风险与验收要求 | Folio 归档，Vesper 未来计划可查 | 进行中 |
-| M1 · 开发基线 | Worker 管理界面、PNG 预览、固定路径发布、默认拒绝测试 | 分支代码审查与自动检查通过 | 初版已提交，待验证 |
+| M1 · 开发基线 | Worker 管理界面、PNG 预览、固定分支暂存、专用 Actions 三资源发布、默认拒绝测试 | 分支代码审查与自动检查通过 | 实现已提交，待端到端验证 |
 | M2 · 真实身份保护 | 配置独立域名、Cloudflare Access 单账号策略、Worker Secret | 未登录和非指定账号无法访问任何接口 | 未开始 |
 | M3 · 双格式与发布验收 | 使用真实 PNG 生成 WebP/GIF、检查透明边缘、确认部署状态 | 清晰度、透明度、循环、降级均通过 | 待验收 |
 | M4 · 安全与兼容验收 | 身份与上传攻击测试、失败/回滚、Chrome/Firefox/Safari/移动端检查 | 无高危问题，日志和恢复步骤可追踪 | 未开始 |
@@ -178,7 +181,7 @@ Vesper 的 GitHub Actions 构建并验证
 - [ ] 上传错误格式、损坏文件、过大文件、异常尺寸均有明确失败提示。
 - [ ] 静态预览与微动态预览在桌面、移动端正常显示。
 - [ ] 手动确认前不会上传或更改公开资源。
-- [ ] 确认后仅更新指定的源 PNG，不修改其他文件或分支。
+- [ ] 确认后 Worker 仅暂存开发分支 PNG；生成验证成功后，专用 Actions 在一次提交中更新 `main` 的 PNG、WebP、GIF，不修改其他主站资源。
 - [ ] 生产构建真正生成可打开、可循环、透明边缘正常的 WebP 与 GIF。
 - [ ] 网站减少动画偏好及加载失败降级为静态 PNG。
 - [ ] 能区分“提交成功、构建成功、网站可访问”三种不同状态。
@@ -190,7 +193,7 @@ Vesper 的 GitHub Actions 构建并验证
 | 风险 | 应对 |
 | --- | --- |
 | 静态 Pages 无法安全承担私人管理接口 | Worker 独立部署，Access + 服务端签名验证 |
-| 管理分支与主站分支职责混淆 | Studio 代码独立分支；头像发布只更新 main 固定路径 |
+| 管理分支与主站分支职责混淆 | Studio 代码与 PNG 暂存于独立分支；三文件验证通过后再原子提交到 main |
 | GitHub 写入权限泄露 | 单仓库最小授权、Worker Secret、凭据轮换 |
 | 预览和编码成品效果不一致 | 明确标注 CSS 预览；最终成品需在验收中实际查看 |
 | GIF 边缘色彩伪影 | 直接从 RGBA 帧导出、统一调色板、人工检查成品 |
@@ -204,6 +207,7 @@ Vesper 的 GitHub Actions 构建并验证
 - 开发变更先留在 `feature/avatar-studio`；不为了更新管理工具而自动合并主站。
 - 生产用身份和授权配置由维护者在 Cloudflare、GitHub 管理，不写入公开文档。
 - 发布时按 Vesper 的版本规范更新日志；尚未上线则继续保留在「在途改动」中。
+- 主站 CI 已不再执行头像转换；Studio 独立工作流须显式触发主站部署，防止 GitHub Actions 自动化提交不触发另一套工作流的情况。
 
 ---
 
